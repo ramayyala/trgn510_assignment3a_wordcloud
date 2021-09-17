@@ -1,0 +1,1844 @@
+# Translational bioinformatics
+
+From Wikipedia, the free encyclopedia
+
+Jump to navigation Jump to search
+
+**Translational bioinformatics** (**TBI**) is an emerging field in the study of [health informatics](/wiki/Health_informatics), focused on the convergence of molecular [bioinformatics](/wiki/Bioinformatics), [biostatistics](/wiki/Biostatistics), statistical genetics and [clinical informatics](/wiki/Health_informatics). Its focus is on applying informatics methodology to the increasing amount of biomedical and genomic data to formulate knowledge and medical tools, which can be utilized by scientists, clinicians, and patients.[1] Furthermore, it involves applying biomedical research to improve human health through the use of computer-based information system.[2] TBI employs [data mining](/wiki/Data_mining) and analyzing biomedical informatics in order to generate clinical knowledge for application.[3] Clinical knowledge includes finding similarities in patient populations, interpreting biological information to suggest therapy treatments and predict health outcomes.[4]
+
+## Contents
+
+  * 1 History
+  * 2 Benefits and opportunities
+  * 3 Methodologies
+    * 3.1 Storage
+    * 3.2 Analytics
+    * 3.3 Integration
+  * 4 Cost
+  * 5 Future directions
+  * 6 Associations, conferences and journals
+  * 7 Training and certification
+  * 8 References
+
+## History[[edit](/w/index.php?title=Translational_bioinformatics&action=edit&
+section=1)]
+
+Translational bioinformatics is a relatively young field within translational
+research.[5][6] [Google trends](/wiki/Google_trends) indicate the use of
+"[bioinformatics](/wiki/Bioinformatics)" has decreased since the mid 1990s
+when it was suggested as a transformative approach to biomedical research.[6]
+It was coined, however, close to ten years earlier.[7] TBI was then presented
+as means to facilitate data organization, accessibility and improved
+interpretation of the available biomedical research.[6][8] It was considered a
+decision support tool that could integrate biomedical information into
+decision-making processes that otherwise would have been omitted due to the
+nature of human memory and thinking patterns.[8]
+
+Initially, the focus of TBI was on [ontology](/wiki/Ontology) and vocabulary
+designs for searching the mass data stores. However, this attempt was largely
+unsuccessful as preliminary attempts for [automation](/wiki/Automation)
+resulted in misinformation. TBI needed to develop a baseline for cross-
+referencing data with higher order algorithms in order to link data,
+structures and functions in networks.[6] This went hand in hand with a focus
+on developing curriculum for graduate level programs and capitalization for
+funding on the growing public acknowledgement of the potential opportunity in
+TBI.[6]
+
+When the first draft of the [human genome](/wiki/Human_genome) was completed
+in the early 2000s, TBI continued to grow and demonstrate prominence as a
+means to bridge biological findings with [clinical
+informatics](/wiki/Health_informatics), impacting the opportunities for both
+industries of biology and healthcare.[9] Expression profiling, [text
+mining](/wiki/Text_mining) for trends analysis, population-based data mining
+providing biomedical insights, and ontology development has been explored,
+defined and established as important contributions to TBI.[6][10] Achievements
+of the field that have been used for knowledge discovery include linking
+clinical records to genomics data, linking drugs with ancestry, whole genome
+sequencing for a group with a common disease, and semantics in literature
+mining.[10] There has been discussion of cooperative efforts to create cross-
+jurisdictional strategies for TBI, particularly in Europe. The past decade has
+also seen the development of personalized medicine and data sharing in
+[pharmacogenomics](/wiki/Pharmacogenomics). These accomplishments have
+solidified public interest, generated funds for investment in training and
+further curriculum development, increased demand for skilled personnel in the
+field and pushed ongoing TBI research and development.[6]
+
+## Benefits and opportunities[[edit](/w/index.php?title=Translational_bioinfor
+matics&action=edit&section=2)]
+
+At present, TBI research spans multiple disciplines; however, the application
+of TBI in clinical settings remains limited. Currently, it is partially
+deployed in [drug development](/wiki/Drug_development), regulatory review, and
+clinical [medicine](/wiki/Medicine).[8] The opportunity for application of TBI
+is much broader as increasingly medical journals are mentioning the term
+"informatics" and discussing bioinformatics related topics.[2] TBI research
+draws on four main areas of discourse: clinical genomics, genomic medicine,
+[pharmacogenomics](/wiki/Pharmacogenomics), and [genetic
+epidemiology](/wiki/Genetic_epidemiology).[9] There are increasing numbers of
+conferences and forums focused on TBI to create opportunities for knowledge
+sharing and field development. General topics that appear in recent
+conferences include: (1) personal genomics and genomic infrastructure, (2)
+drug and gene research for adverse events, interactions and repurposing of
+drugs, (3) biomarkers and phenotype representation, (4) sequencing, science
+and systems medicine, (5) computational and analytical methodologies for TBI,
+and (6) application of bridging genetic research and clinical
+practice.[8][10][11]
+
+With the help of bioinformaticians, biologists are able to analyze complex
+data, set up websites for experimental measurements, facilitate sharing of the
+measurements, and correlate findings to clinical outcomes.[2] Translational
+bioinformaticians studying a particular disease would have more sample data
+regarding a given disease than an individual biologist studying the disease
+alone.
+
+Since the completion of the [human genome](/wiki/Human_genome), new projects
+are now attempting to systematically analyze all the gene alterations in a
+disease like [cancer](/wiki/Cancer) rather than focusing on a few genes at a
+time. In the future, large-scale data will be integrated from different
+sources in order to extract functional information. The availability of a
+large number of human genomes will allow for statistical mining of their
+relation to lifestyles, drug interactions, and other factors. Translational
+bioinformatics is therefore transforming the search for disease genes and is
+becoming a crucial component of other areas of medical research including
+[pharmacogenomics](/wiki/Pharmacogenomics).[12]
+
+In a study evaluating the computational and economic characteristics of [cloud
+computing](/wiki/Cloud_computing) in performing a large-scale data integration
+and analysis of genomic medicine, cloud-based analysis had similar cost and
+performance in comparison to a local computational cluster. This suggests that
+cloud-computing technologies might be a valuable and economical technology for
+facilitating large-scale [translational
+research](/wiki/Translational_research) in genomic medicine.[13]
+
+## Methodologies[[edit](/w/index.php?title=Translational_bioinformatics&action
+=edit&section=3)]
+
+### Storage[[edit](/w/index.php?title=Translational_bioinformatics&action=edit
+&section=4)]
+
+Vast amounts of bioinformatical data are currently available and continue to
+increase. For instance, the GenBank database, funded by the National Institute
+of Health (NHI), currently holds 82 billion [nucleotides](/wiki/Nucleotides)
+in 78 million sequences coding for 270,000 species. The equivalent of GenBank
+for [gene expression](/wiki/Gene_expression) microarrays, known as the Gene
+Expression Omnibus (GEO), has over 183,000 samples from 7,200 experiments and
+this number doubles or triples each year. The [European Bioinformatics
+Institute](/wiki/European_Bioinformatics_Institute) (EBI) has a similar
+database called ArrayExpress which has over 100 000 samples from over 3,000
+experiments. All together, TBI has access to more than a quarter million
+microarray samples at present.[2]
+
+To extract relevant data from large data sets, TBI employs various methods
+such as data consolidation, data federation, and [data
+warehousing](/wiki/Data_warehouse). In the data consolidation approach, data
+is extracted from various sources and centralized in a single database. This
+approach enables standardization of heterogeneous data and helps address
+issues in interoperability and compatibility among data sets. However,
+proponents of this method often encounter difficulties in updating their
+databases as it is based on a single data model. In contrast, the data
+federation approach links databases together and extracts data on a regular
+basis, then combines the data for queries. The benefit of this approach is
+that it enables the user to access real-time data on a single portal. However,
+the limitation of this is that data collected may not always be synchronized
+as it is derived from multiple sources. [Data
+warehousing](/wiki/Data_warehouse) provides a single unified platform for data
+curation. [Data warehousing](/wiki/Data_warehouse) ingrates data from multiple
+sources into a common format, and is typically used in bioscience exclusively
+for decision support purposes.[14]
+
+### Analytics[[edit](/w/index.php?title=Translational_bioinformatics&action=ed
+it&section=5)]
+
+Analytic techniques serve to translate biological data using high-throughput
+techniques into clinically relevant information. Currently, numerous software
+and methodologies for querying data exist, and this number continues to grow
+as more studies are conducted and published in bioinformatics journals such as
+_[Genome Biology](/wiki/Genome_Biology)_, _[BMC
+Bioinformatics](/wiki/BMC_Bioinformatics)_, _BMC Genomics_, and
+_[Bioinformatics](/wiki/Bioinformatics_\(journal\))_. To ascertain the best
+analytical technique, tools such as Weka have been created to cipher through
+the array of software’s and select the most appropriate technique abstracting
+away the need to know a specific methodology.[15]
+
+### Integration[[edit](/w/index.php?title=Translational_bioinformatics&action=
+edit&section=6)]
+
+[Data integration](/wiki/Data_integration) involves developing methods that
+use biological information for the clinical setting. Integrating data empowers
+clinician’s with tools for data access, [knowledge
+discovery](/wiki/Knowledge_extraction), and decision support. [Data
+integration](/wiki/Data_integration) serves to utilize the wealth of
+information available in bioinformatics to improve patient health and safety.
+An example of data integration is the use of [decision support
+systems](/wiki/Decision_support_systems) (DSS) based on translational
+bioinformatics. DSS used in this regard identify correlations in patient
+[electronic medical records](/wiki/Electronic_medical_records) (EMR) and other
+clinical information systems to assist clinicians in their diagnoses.[14]
+
+## Cost[[edit](/w/index.php?title=Translational_bioinformatics&action=edit&sec
+tion=7)]
+
+Companies are now able to provide whole human [genome
+sequencing](/wiki/Whole_genome_sequencing) and analysis as a simple outsourced
+service. Second- and third-generation versions of sequencing systems are
+planned to increase the amount of genomes per day, per instrument, to 80.
+According to the CEO of Complete Genomics Cliff Reid, the total market for
+whole human genome sequencing around the world has increased five-fold during
+2009 and 2010, and was estimated to be 15,000 genomes for 2011. Furthermore,
+if the price were to fall to $1,000 per genome, he maintained that the company
+would still be able to make a profit. The company is also working on process
+improvements to bring down the internal cost to around $100 per genome,
+excluding sample-prep and labor costs.[16][17]
+
+According to the [National Human Genome Research
+Institute](/wiki/National_Human_Genome_Research_Institute) (NHGRI), the costs
+to sequence the entire [genome](/wiki/Genome) has significantly decreased from
+over $95 million in 2001 to $7,666 in January 2012. Similarly, the cost of
+determining one megabase (a million bases) has also decreased from over $5,000
+in 2001 to $0.09 in 2012. In 2008, sequencing centers transitioned from
+Sanger-based (dideoxy chain termination sequencing) to 'second generation' (or
+'next-generation') [DNA sequencing](/wiki/DNA_sequencing) technologies. This
+caused a significant drop in sequencing costs.[18]
+
+## Future directions[[edit](/w/index.php?title=Translational_bioinformatics&ac
+tion=edit&section=8)]
+
+TBI has the potential to play a significant role in medicine; however, many
+challenges still remain. The overarching goal for TBI is to "develop
+informatics approaches for linking across traditionally disparate data and
+knowledge sources enabling both the generation and testing of new
+hypotheses".[9] Current applications of TBI face challenges due to a lack of
+standards resulting in diverse data collection methodologies. Furthermore,
+analytic and storage capabilities are hindered due to large volumes of data
+present in current research. This problem is projected to increase with
+personal genomics as it will create an even greater accumulation of
+data.[6][9]
+
+Challenges also exist in the research of drugs and biomarkers, genomic
+medicine, protein design metagenomics, infectious disease discovery, [data
+curation](/wiki/Data_curation), literature mining, and workflow
+development.[6] Continued belief in the opportunity and benefits of TBI
+justifies further funding for infrastructure, intellectual property protection
+and accessibility policies.[6][19]
+
+Available funding for TBI in the past decade has increased.[2] The demand for
+translational bioinformatics research is in part due to the growth in numerous
+areas of [bioinformatics](/wiki/Bioinformatics) and [health
+informatics](/wiki/Health_informatics) and in part due to the popular support
+of projects like the [Human Genome
+Project](/wiki/Human_Genome_Project).[7][9][20] This growth and influx of
+funding has enabled the industry to produce assets such as a repository of
+[gene expression](/wiki/Gene_expression) data and genomic scale data while
+also making progress towards the concept of creating a $1000 genome and
+completing the [Human Genome Project](/wiki/Human_Genome_Project).[9][20] It
+is believed by some that TBI will cause a cultural shift in the way scientific
+and clinical information are processed within the pharmaceutical industry,
+regulatory agencies, and clinical practice. It is also seen as a means to
+shift clinical trial designs away from case studies and towards EMR
+analysis.[8]
+
+Leaders in the field have presented numerous predictions with regards to the
+direction TBI is, and should take. A collection of predictions is as follows:
+
+  1. Lesko (2012) states that strategy must occur in the European Union to bridge the gap between academic and industry in the following ways – directly quoted:[8]
+    1. Validate and publish informatics data and technology models to accepted standards in order to facilitate adoption,
+    2. Transform electronic health records to make them more accessible and interoperable,
+    3. Encourage information sharing, engage regulatory agencies, and
+    4. Encourage increasing financial support to grow and develop TBI
+  2. Altman (2011), at the 2011 AMIA Summit on TBI, predicts that:[10]
+    1. Cloud computing will contribute to major biomedical discovery.
+    2. Informatics applications to stem cell science will increase
+    3. Immune genomics will emerge as powerful data
+    4. Flow cytometry informatics will grow
+    5. Molecular & expression data will combine for drug repurposing
+    6. Exome sequencing will persist longer than expected Progress in interpreting non-coding DNA variations
+  3. Sarkar, [Butte](/wiki/Atul_Butte), [Lussier](/wiki/Yves_A._Lussier), Tarczy-Hornoch & Ohno-Machado (2011) state that the future of TBI must establish a way to manage the large amount of available data and look to integrate findings from projects such as the eMERGE (Electronic Medical Records and Genomics) project funded by NIH, the Personal Genome Project, the Exome Project, the Million Veteran Program and the 1000 Genomes Project.[9]
+
+"In an information-rich world, the wealth of information means a dearth of
+something else—a scarcity of whatever it is that information consumes. What
+information consumes is rather obvious: it consumes the attention of its
+recipients. Hence a wealth of information creates a poverty of attention and a
+need to allocate that attention efficiently among the overabundance of
+information sources that it might consume." (Herbert Simon,1971).
+
+## Associations, conferences and journals[[edit](/w/index.php?title=Translatio
+nal_bioinformatics&action=edit&section=9)]
+
+Below is a list of existing associations, conferences and journals that are
+specific to TBI. By no means is this an all-inclusive list, and should be
+developed as others are discovered.
+
+Associations
+
+  * American Medical Informatics Association: <http://www.amia.org/>
+
+Conferences *websites change yearly
+
+  * AMIA Annual Symposium [Chicago, 2012]
+  * AMIA Joint Summits on Translational Science [San Francisco, 2013]
+  * AMIA Summit on Translational Bioinformatics (TBI) [San Francisco, 2013]
+  * AMIA Summit Clinical Research Informatics (CRI) [San Francisco, 2013]
+  * [TBC 2011](http://www.snubi.org/TBC2011/), Translational Bioinformatics Conference [Seoul, Korea, 2011]
+  * [TBC 2012](http://www.snubi.org/TBC2012/), Translational Bioinformatics Conference [Jeju Island, Korea, 2012]
+  * [TBC/ISCB-Asia 2013](http://www.snubi.org/TBC2013/), Translational Bioinformatics Conference [Seoul, Korea, 2013]
+  * [TBC/ISB 2014](http://www.snubi.org/TBC2014/), Translational Bioinformatics Conference [Qingdao, China, 2014]
+  * [TBC2015](http://www.snubi.org/TBC2015/), Translational Bioinformatics Conference [Tokyo, Japan, 2015]
+  * IFP/IMIA Working Conference, Interfacing bio- and medical informatics [Amsterdam, 2012]
+
+Journals
+
+  * _[Journal of the American Medical Informatics Association](/wiki/Journal_of_the_American_Medical_Informatics_Association)_
+  * _[Journal of Biomedical Informatics](/wiki/Journal_of_Biomedical_Informatics)_
+  * _Journal of Clinical Bioinformatics_
+
+Special Journal Issues on Translational Bioinformatics
+
+  * ["Translational Bioinformatics", Lussier YA, Butte A, Hunter L, J Biomed Inform Volume 43, Issue 3 (2010)](http://www.sciencedirect.com/science/publication?issn=15320464&volume=43&issue=3)
+  * ["Translational Bioinformatics", Kann M, Lewitter F, Chen J, PLoS Compt Biol 2012](http://www.ploscollections.org/article/browseIssue.action?issue=info:doi/10.1371/issue.pcol.v03.i11)
+
+## Training and certification[[edit](/w/index.php?title=Translational_bioinfor
+matics&action=edit&section=10)]
+
+A non-exhaustive list of training and certification programs specific to TBI
+are listed below.
+
+  * [Masters In Translational Bioinformatics](http://dtg.usc.edu/site/index.php/bioinformatics/) University of Southern California,
+  * [Oregon Clinical and Translational Institute](http://www.ohsu.edu/xd/research/centers-institutes/octri/about/organizational-structure/programs/translational-bioinformatics.cfm)
+  * [Bioinformatics and Translational-Clinical Research Program](http://www.bumc.bu.edu/pulmonary/research/translational/bioinformatics/) Boston University School of Medicine,
+  * [University of Pennsylvania, Smilow Center for Translational Research](http://www.uphs.upenn.edu/news/News_Releases/2012/10/smilow/) /
+  * [Division of Biomedical Informatics](http://dbmi.ucsd.edu/confluence/display/DBMI/Translational+Bioinformatics) University of California San Diego
+  * [CPBMI (Certified Physician in Biomedical Informatics)](https://web.archive.org/web/20140112163959/http://www.cpbmi.or.kr/) The Korean Society of Medical Informatics:
+
+## References[[edit](/w/index.php?title=Translational_bioinformatics&action=ed
+it&section=11)]
+
+  1. **^** ["Translational Bioinformatics"](http://www.amia.org/applications-informatics/translational-bioinformatics). _American Medical Informatics Association_. Retrieved 24 September 2014.
+  2. ^ _**a**_ _**b**_ _**c**_ _**d**_ _**e**_ Butte, A. J. (2008). ["Translational bioinformatics: Coming of age"](//www.ncbi.nlm.nih.gov/pmc/articles/PMC2585538). _Journal of the American Medical Informatics Association_. **15** (6): 709–714. [doi](/wiki/Doi_\(identifier\)):[10.1197/jamia.M2824](https://doi.org/10.1197%2Fjamia.M2824). [PMC](/wiki/PMC_\(identifier\)) [2585538](//www.ncbi.nlm.nih.gov/pmc/articles/PMC2585538). [PMID](/wiki/PMID_\(identifier\)) [18755990](//pubmed.ncbi.nlm.nih.gov/18755990).
+  3. **^** Geospiza. ["Translational bioinformatics"](https://web.archive.org/web/20110528203247/http://finchtalk.geospiza.com/2011/03/translational-bioinformatics.html). Archived from [the original](http://finchtalk.geospiza.com/2011/03/translational-bioinformatics.html) on May 28, 2011. Retrieved March 23, 2011.
+  4. **^** ["When Healthcare and Computer Science Collide"](http://healthinformatics.uic.edu/infographics/when-healthcare-and-computer-science-collide/). _University of Illinois at Chicago_. University of Illinois at Chicago. 2014. Retrieved 18 September 2014.
+  5. **^** ["Colorado Clinical and Translational Sciences Institute (CCTSI)"](http://cctsi.ucdenver.edu/RIIC/Pages/WhatisTranslationalInformatics.aspx). Retrieved November 16, 2012.
+  6. ^ _**a**_ _**b**_ _**c**_ _**d**_ _**e**_ _**f**_ _**g**_ _**h**_ _**i**_ _**j**_ Ouzounis, C. A. (2012). ["Rise and demise of bioinformatics? Promise and progress"](//www.ncbi.nlm.nih.gov/pmc/articles/PMC3343106). _PLOS Computational Biology_. **8** (4): 1–5. [doi](/wiki/Doi_\(identifier\)):[10.1371/journal.pcbi.1002487](https://doi.org/10.1371%2Fjournal.pcbi.1002487). [PMC](/wiki/PMC_\(identifier\)) [3343106](//www.ncbi.nlm.nih.gov/pmc/articles/PMC3343106). [PMID](/wiki/PMID_\(identifier\)) [22570600](//pubmed.ncbi.nlm.nih.gov/22570600).
+  7. ^ _**a**_ _**b**_ Shah, N. H.; Jonquet, C.; Lussier, Y. A.; Tarzy-Hornoch, P.; Ohno-Machado, L. (2009). ["Ontology-driven indexing of public datasets for translational bioinformatics"](//www.ncbi.nlm.nih.gov/pmc/articles/PMC2646250). _BMC Bioinformatics_. **10** (2): S1. [doi](/wiki/Doi_\(identifier\)):[10.1186/1471-2105-10-S2-S1](https://doi.org/10.1186%2F1471-2105-10-S2-S1). [PMC](/wiki/PMC_\(identifier\)) [2646250](//www.ncbi.nlm.nih.gov/pmc/articles/PMC2646250). [PMID](/wiki/PMID_\(identifier\)) [19208184](//pubmed.ncbi.nlm.nih.gov/19208184).
+  8. ^ _**a**_ _**b**_ _**c**_ _**d**_ _**e**_ _**f**_ Lesko, L. J. (2012). "Drug research and translational bioinformatics". _Clinical Pharmacology & Therapeutics_. **91** (6): 960–962. [doi](/wiki/Doi_\(identifier\)):[10.1038/clpt.2012.45](https://doi.org/10.1038%2Fclpt.2012.45). [PMID](/wiki/PMID_\(identifier\)) [22609906](//pubmed.ncbi.nlm.nih.gov/22609906).
+  9. ^ _**a**_ _**b**_ _**c**_ _**d**_ _**e**_ _**f**_ _**g**_ Sarkar, I. N.; Butte, A. J.; Lussier, Y. A.; Tarczy-Hornoch, P.; Ohno-Machado, L. (2011). ["Translational bioinformatics: Linking knowledge across biological and clinical realms"](//www.ncbi.nlm.nih.gov/pmc/articles/PMC3128415). _J Am Med Inform Assoc_. **18** (4): 345–357. [doi](/wiki/Doi_\(identifier\)):[10.1136/amiajnl-2011-000245](https://doi.org/10.1136%2Famiajnl-2011-000245). [PMC](/wiki/PMC_\(identifier\)) [3128415](//www.ncbi.nlm.nih.gov/pmc/articles/PMC3128415). [PMID](/wiki/PMID_\(identifier\)) [21561873](//pubmed.ncbi.nlm.nih.gov/21561873).
+  10. ^ _**a**_ _**b**_ _**c**_ _**d**_ Altman, R. B. ["Translational bioinformatics: The year in review"](http://rbaltman.wordpress.com/2011/03/10/). Retrieved November 16, 2012.
+  11. **^** Mendonca, E. A. (2010). ["Selected proceedings of the 2010 summit on translational bioinformatics"](//www.ncbi.nlm.nih.gov/pmc/articles/PMC2967739). _BMC Bioinformatics_. **11** (9): 1–4. [doi](/wiki/Doi_\(identifier\)):[10.1186/1471-2105-11-S9-S1](https://doi.org/10.1186%2F1471-2105-11-S9-S1). [PMC](/wiki/PMC_\(identifier\)) [2967739](//www.ncbi.nlm.nih.gov/pmc/articles/PMC2967739). [PMID](/wiki/PMID_\(identifier\)) [21044356](//pubmed.ncbi.nlm.nih.gov/21044356).
+  12. **^** Kann, M. G. (2010). ["Advances in translational bioinformatics: Computational approaches for the hunting of disease genes"](//www.ncbi.nlm.nih.gov/pmc/articles/PMC2810112). _Briefings in Bioinformatics_. **11** (1): 96–110. [doi](/wiki/Doi_\(identifier\)):[10.1093/bib/bbp048](https://doi.org/10.1093%2Fbib%2Fbbp048). [PMC](/wiki/PMC_\(identifier\)) [2810112](//www.ncbi.nlm.nih.gov/pmc/articles/PMC2810112). [PMID](/wiki/PMID_\(identifier\)) [20007728](//pubmed.ncbi.nlm.nih.gov/20007728).
+  13. **^** Dudley, J. T. (2010). ["Translational bioinformatics in the cloud: An affordable alternative"](//www.ncbi.nlm.nih.gov/pmc/articles/PMC2945008). _Genome Medicine_. **2** (8): 51. [doi](/wiki/Doi_\(identifier\)):[10.1186/gm172](https://doi.org/10.1186%2Fgm172). [PMC](/wiki/PMC_\(identifier\)) [2945008](//www.ncbi.nlm.nih.gov/pmc/articles/PMC2945008). [PMID](/wiki/PMID_\(identifier\)) [20691073](//pubmed.ncbi.nlm.nih.gov/20691073).
+  14. ^ _**a**_ _**b**_ Yan, Q (2010). "Translational bioinformatics and systems biology approaches for personalized medicine". _Systems Biology in Drug Discovery and Development_. Methods Mol Biol. **662**. pp. 167–178. [doi](/wiki/Doi_\(identifier\)):[10.1007/978-1-60761-800-3_8](https://doi.org/10.1007%2F978-1-60761-800-3_8). [ISBN](/wiki/ISBN_\(identifier\)) [978-1-60761-799-0](/wiki/Special:BookSources/978-1-60761-799-0). [PMID](/wiki/PMID_\(identifier\)) [20824471](//pubmed.ncbi.nlm.nih.gov/20824471).
+  15. **^** Butte, A. J. (2009). ["Translational bioinformatics applications in genome medicine"](//www.ncbi.nlm.nih.gov/pmc/articles/PMC2703873). _Genome Med_. **1** (6): 64. [doi](/wiki/Doi_\(identifier\)):[10.1186/gm64](https://doi.org/10.1186%2Fgm64). [PMC](/wiki/PMC_\(identifier\)) [2703873](//www.ncbi.nlm.nih.gov/pmc/articles/PMC2703873). [PMID](/wiki/PMID_\(identifier\)) [19566916](//pubmed.ncbi.nlm.nih.gov/19566916).
+  16. **^** Heger, M. ["Complete genomics targets 2015 for new instruments with capacity of 80 genomes per day"](http://www.genomeweb.com/sequencing/complete-genomics-targets-2015-new-instruments-capacity-80-genomes-day). Retrieved November 1, 2012.
+  17. **^** ["Complete genomics"](http://www.completegenomics.com/). Retrieved November 1, 2012.
+  18. **^** Wetterstrand, K. A. ["DNA sequencing costs: Data from the NHGRI Genome sequencing program (GSP)"](http://www.genome.gov/sequencingcosts). Retrieved November 3, 2012.
+  19. **^** Azuaje, F. J.; Heymann, M.; Ternes, A.; Wienecke-Baldacchino, A.; Struck, D.; Moes, D.; Schneider, R. (2012). ["Bioinformatics as a driver, not a passenger, of translational biomedical research: Perspectives from the 6th Benelux bioinformatics conference"](http://www.bbc11.lu/documents/ConferenceProceedingsBBC2011update.pdf) (PDF). _Journal of Clinical Bioinformatics_. **2** (7): 1–3. [doi](/wiki/Doi_\(identifier\)):[10.1186/2043-9113-2-7](https://doi.org/10.1186%2F2043-9113-2-7). [PMC](/wiki/PMC_\(identifier\)) [3323358](//www.ncbi.nlm.nih.gov/pmc/articles/PMC3323358). [PMID](/wiki/PMID_\(identifier\)) [22414553](//pubmed.ncbi.nlm.nih.gov/22414553).
+  20. ^ _**a**_ _**b**_ Butte, A. J.; Chen, R. (2006). ["Finding disease-related genomic experiments within an international repository: First steps in translational bioinformatics"](//www.ncbi.nlm.nih.gov/pmc/articles/PMC1839582). _AMIA Annu Symp Proc_: 106–110. [PMC](/wiki/PMC_\(identifier\)) [1839582](//www.ncbi.nlm.nih.gov/pmc/articles/PMC1839582). [PMID](/wiki/PMID_\(identifier\)) [17238312](//pubmed.ncbi.nlm.nih.gov/17238312).
+
+  * [v](/wiki/Template:Health_informatics)
+  * [t](/wiki/Template_talk:Health_informatics)
+  * [e](https://en.wikipedia.org/w/index.php?title=Template:Health_informatics&action=edit)
+
+[Health informatics](/wiki/Health_informatics)
+
+Subdisciplines
+
+  * [Medical image computing](/wiki/Medical_image_computing) and [imaging informatics](/wiki/Imaging_informatics)
+  * [Artificial intelligence in healthcare](/wiki/Artificial_intelligence_in_healthcare)
+  * [Neuroinformatics](/wiki/Neuroinformatics) in healhcare
+  * [Behavior informatics](/wiki/Behavior_informatics) in healthcare
+  * [Computational biology](/wiki/Computational_biology) in healthcare
+  * Translational bioinformatics
+  * [Translational medicine](/wiki/Translational_medicine)
+  * [health information technology](/wiki/Health_information_technology)
+  * [Telemedicine](/wiki/Telemedicine)
+  * [Public health informatics](/wiki/Public_health_informatics)
+  * [Health information management](/wiki/Health_information_management)
+  * [Consumer health informatics](/wiki/Consumer_health_informatics)
+
+[Medical classification](/wiki/Medical_classification)
+
+  * [Continuity of Care Record](/wiki/Continuity_of_Care_Record)
+  * [HRHIS](/wiki/HRHIS)
+  * [ICD](/wiki/International_Statistical_Classification_of_Diseases_and_Related_Health_Problems)
+  * [ISO 27799](/wiki/ISO_27799)
+  * [LOINC](/wiki/LOINC)
+
+Professional organizations
+
+  * [American Association for Medical Systems and Informatics](/wiki/American_Association_for_Medical_Systems_and_Informatics)
+  * [American Medical Informatics Association](/wiki/American_Medical_Informatics_Association)
+  * [Australian Society](/wiki/Health_Informatics_Society_of_Australia) / [Australasian College](/wiki/Australasian_College_of_Health_Informatics) (to merge from 2020)
+  * [Brazilian Society](/wiki/Brazilian_Society_of_Health_Informatics)
+  * [European Federation](/wiki/European_Federation_for_Medical_Informatics)
+  * [Indian Association](/wiki/Indian_Association_for_Medical_Informatics)
+  * [International Association](/wiki/International_Medical_Informatics_Association)
+  * [American College of Medical Informatics](/wiki/American_College_of_Medical_Informatics)
+
+Other concepts
+
+  * [Health Level 7](/wiki/Health_Level_7)
+  * [Remote manipulator](/wiki/Remote_manipulator)
+  * [Personalized medicine](/wiki/Personalized_medicine) / [precision medicine](/wiki/Precision_medicine)
+  * [List of medical and health informatics journals](/wiki/List_of_medical_and_health_informatics_journals)
+  * [openEHR](/wiki/OpenEHR)
+
+![](//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1)
+
+Retrieved from "[https://en.wikipedia.org/w/index.php?title=Translational_bioi
+nformatics&oldid=1022219805](https://en.wikipedia.org/w/index.php?title=Transl
+ational_bioinformatics&oldid=1022219805)"
+
+[Categories](/wiki/Help:Category):
+
+  * [Health informatics](/wiki/Category:Health_informatics)
+
+## Navigation menu
+
+###  Personal tools
+
+  * Not logged in
+  * [Talk](/wiki/Special:MyTalk)
+  * [Contributions](/wiki/Special:MyContributions)
+  * [Create account](/w/index.php?title=Special:CreateAccount&returnto=Translational+bioinformatics)
+  * [Log in](/w/index.php?title=Special:UserLogin&returnto=Translational+bioinformatics)
+
+###  Namespaces
+
+  * [Article](/wiki/Translational_bioinformatics)
+  * [Talk](/w/index.php?title=Talk:Translational_bioinformatics&action=edit&redlink=1)
+
+###  Variants expanded collapsed
+
+###  Views
+
+  * [Read](/wiki/Translational_bioinformatics)
+  * [Edit](/w/index.php?title=Translational_bioinformatics&action=edit)
+  * [View history](/w/index.php?title=Translational_bioinformatics&action=history)
+
+###  More expanded collapsed
+
+###  Search
+
+###  Navigation
+
+  * [Main page](/wiki/Main_Page)
+  * [Contents](/wiki/Wikipedia:Contents)
+  * [Current events](/wiki/Portal:Current_events)
+  * [Random article](/wiki/Special:Random)
+  * [About Wikipedia](/wiki/Wikipedia:About)
+  * [Contact us](//en.wikipedia.org/wiki/Wikipedia:Contact_us)
+  * [Donate](https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en)
+
+###  Contribute
+
+  * [Help](/wiki/Help:Contents)
+  * [Learn to edit](/wiki/Help:Introduction)
+  * [Community portal](/wiki/Wikipedia:Community_portal)
+  * [Recent changes](/wiki/Special:RecentChanges)
+  * [Upload file](/wiki/Wikipedia:File_Upload_Wizard)
+
+###  Tools
+
+  * [What links here](/wiki/Special:WhatLinksHere/Translational_bioinformatics)
+  * [Related changes](/wiki/Special:RecentChangesLinked/Translational_bioinformatics)
+  * [Upload file](/wiki/Wikipedia:File_Upload_Wizard)
+  * [Special pages](/wiki/Special:SpecialPages)
+  * [Permanent link](/w/index.php?title=Translational_bioinformatics&oldid=1022219805)
+  * [Page information](/w/index.php?title=Translational_bioinformatics&action=info)
+  * [Cite this page](/w/index.php?title=Special:CiteThisPage&page=Translational_bioinformatics&id=1022219805&wpFormIdentifier=titleform)
+  * [Wikidata item](https://www.wikidata.org/wiki/Special:EntityPage/Q7834541)
+
+###  Print/export
+
+  * [Download as PDF](/w/index.php?title=Special:DownloadAsPdf&page=Translational_bioinformatics&action=show-download-screen)
+  * [Printable version](/w/index.php?title=Translational_bioinformatics&printable=yes)
+
+###  Languages
+
+  * [فارسی](https://fa.wikipedia.org/wiki/%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%D8%AF%DB%8C%E2%80%8C%D8%B3%D8%A7%D8%B2%DB%8C_%D8%A8%DB%8C%D9%88%D8%A7%D9%86%D9%81%D9%88%D8%B1%D9%85%D8%A7%D8%AA%DB%8C%DA%A9)
+
+[Edit links](https://www.wikidata.org/wiki/Special:EntityPage/Q7834541
+#sitelinks-wikipedia)
+
+  * This page was last edited on 9 May 2021, at 06:45 (UTC).
+  * Text is available under the [Creative Commons Attribution-ShareAlike License](//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License); additional terms may apply. By using this site, you agree to the [Terms of Use](//foundation.wikimedia.org/wiki/Terms_of_Use) and [Privacy Policy](//foundation.wikimedia.org/wiki/Privacy_policy). Wikipedia® is a registered trademark of the [Wikimedia Foundation, Inc.](//www.wikimediafoundation.org/), a non-profit organization.
+  * [Privacy policy](https://foundation.wikimedia.org/wiki/Privacy_policy)
+  * [About Wikipedia](/wiki/Wikipedia:About)
+  * [Disclaimers](/wiki/Wikipedia:General_disclaimer)
+  * [Contact Wikipedia](//en.wikipedia.org/wiki/Wikipedia:Contact_us)
+  * [Mobile view](//en.m.wikipedia.org/w/index.php?title=Translational_bioinformatics&mobileaction=toggle_view_mobile)
+  * [Developers](https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute)
+  * [Statistics](https://stats.wikimedia.org/#/en.wikipedia.org)
+  * [Cookie statement](https://foundation.wikimedia.org/wiki/Cookie_statement)
+  * ![Wikimedia Foundation](/static/images/footer/wikimedia-button.png)
+  * ![Powered by MediaWiki](/static/images/footer/poweredby_mediawiki_88x31.png)
+  *[[v]: View this template
+  *[[e]: Edit this template
+  *[[t]: Discuss this template
+
+# Genomics
+
+From Wikipedia, the free encyclopedia
+
+Jump to navigation Jump to search
+
+Discipline in genetics
+
+This article is about the scientific field. For the journal, see [Genomics
+(journal)](/wiki/Genomics_\(journal\)).
+
+"Genome biology" redirects here. For the journal with the same name, see
+[Genome Biology](/wiki/Genome_Biology).
+
+Part of a series on
+
+[Genetics](/wiki/Genetics)
+
+![Hybridogenesis in water frogs gametes.svg](//upload.wikimedia.org/wikipedia/
+commons/thumb/f/f0/Hybridogenesis_in_water_frogs_gametes.svg/150px-
+Hybridogenesis_in_water_frogs_gametes.svg.png)
+
+Key components
+
+  * [Chromosome](/wiki/Chromosome)
+  * [DNA](/wiki/DNA)
+  * [RNA](/wiki/RNA)
+  * [Genome](/wiki/Genome)
+  * [Heredity](/wiki/Heredity)
+  * [Mutation](/wiki/Mutation)
+  * [Nucleotide](/wiki/Nucleotide)
+  * [Variation](/wiki/Genetic_variation)
+
+* * *
+
+  * [Outline](/wiki/Outline_of_genetics)
+  * [Index](/wiki/Index_of_genetics_articles)
+
+History and topics
+
+  * [Introduction](/wiki/Introduction_to_genetics)
+  * [History](/wiki/History_of_genetics)
+  * [Evolution](/wiki/Evolution) ([molecular](/wiki/Molecular_evolution))
+  * [Population genetics](/wiki/Population_genetics)
+  * [Mendelian inheritance](/wiki/Mendelian_inheritance)
+  * [Quantitative genetics](/wiki/Quantitative_genetics)
+  * [Molecular genetics](/wiki/Molecular_genetics)
+
+Research
+
+  * [Geneticist](/wiki/Geneticist)
+  * [DNA sequencing](/wiki/DNA_sequencing)
+  * [Genetic engineering](/wiki/Genetic_engineering)
+  * Genomics (![Template](//upload.wikimedia.org/wikipedia/en/thumb/5/5c/Symbol_template_class.svg/12px-Symbol_template_class.svg.png) [template](/wiki/Template:Genomics))
+  * [Medical genetics](/wiki/Medical_genetics)
+
+* * *
+
+  * [Branches of genetics](/wiki/Outline_of_genetics#Branches_of_genetics)
+
+Personalized medicine
+
+  * [Personalized medicine](/wiki/Personalized_medicine)
+
+  * ![Issoria lathonia.jpg](//upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Issoria_lathonia.jpg/16px-Issoria_lathonia.jpg) [Biology portal](/wiki/Portal:Biology)
+  * ![Category](//upload.wikimedia.org/wikipedia/en/thumb/9/96/Symbol_category_class.svg/16px-Symbol_category_class.svg.png) [Category](/wiki/Category:Genetics)
+
+  * [v](/wiki/Template:Genetics_sidebar)
+  * [t](/wiki/Template_talk:Genetics_sidebar)
+  * [e](https://en.wikipedia.org/w/index.php?title=Template:Genetics_sidebar&action=edit)
+
+**Genomics** is an interdisciplinary field of [biology](/wiki/Biology) focusing on the structure, function, evolution, mapping, and editing of [genomes](/wiki/Genome). A genome is an organism's complete set of [DNA](/wiki/DNA), including all of its genes. In contrast to [genetics](/wiki/Genetics), which refers to the study of _individual_ genes and their roles in inheritance, genomics aims at the collective characterization and quantification of _all_ of an organism's genes, their interrelations and influence on the organism.[1] Genes may direct the production of [proteins](/wiki/Proteins) with the assistance of enzymes and messenger molecules. In turn, proteins make up body structures such as organs and tissues as well as control chemical reactions and carry signals between cells. Genomics also involves the sequencing and analysis of genomes through uses of high throughput [DNA sequencing](/wiki/DNA_sequencing) and [bioinformatics](/wiki/Bioinformatics) to assemble and analyze the function and structure of entire genomes.[2][3] Advances in genomics have triggered a revolution in discovery-based research and [systems biology](/wiki/Systems_biology) to facilitate understanding of even the most complex biological systems such as the brain.[4]
+
+The field also includes studies of intragenomic (within the genome) phenomena
+such as [epistasis](/wiki/Epistasis) (effect of one gene on another),
+[pleiotropy](/wiki/Pleiotropy) (one gene affecting more than one trait),
+[heterosis](/wiki/Heterosis) (hybrid vigour), and other interactions between
+[loci](/wiki/Locus_\(genetics\)) and [alleles](/wiki/Allele) within the
+genome.[5]
+
+## Contents
+
+  * 1 History
+    * 1.1 Etymology
+    * 1.2 Early sequencing efforts
+    * 1.3 DNA-sequencing technology developed
+    * 1.4 Complete genomes
+    * 1.5 The "omics" revolution
+  * 2 Genome analysis
+    * 2.1 Sequencing
+      * 2.1.1 Shotgun sequencing
+      * 2.1.2 High-throughput sequencing
+    * 2.2 Assembly
+      * 2.2.1 Assembly approaches
+      * 2.2.2 Finishing
+    * 2.3 Annotation
+    * 2.4 Sequencing pipelines and databases
+  * 3 Research areas
+    * 3.1 Functional genomics
+    * 3.2 Structural genomics
+    * 3.3 Epigenomics
+    * 3.4 Metagenomics
+    * 3.5 Model systems
+      * 3.5.1 Viruses and bacteriophages
+      * 3.5.2 Cyanobacteria
+  * 4 Applications of genomics
+    * 4.1 Genomic medicine
+    * 4.2 Synthetic biology and bioengineering
+    * 4.3 Population and conservation genomics
+  * 5 See also
+  * 6 References
+  * 7 Further reading
+  * 8 External links
+
+## History[[edit](/w/index.php?title=Genomics&action=edit&section=1)]
+
+### Etymology[[edit](/w/index.php?title=Genomics&action=edit&section=2)]
+
+From the Greek ΓΕΝ[6] _gen_, "gene" (gamma, epsilon, nu, epsilon) meaning
+"become, create, creation, birth", and subsequent variants: genealogy,
+genesis, genetics, genic, genomere, genotype, genus etc. While the word
+_genome_ (from the [German](/wiki/German_language) _Genom_, attributed to
+[Hans Winkler](/wiki/Hans_Winkler)) was in use in
+[English](/wiki/English_language) as early as 1926,[7] the term _genomics_ was
+coined by Tom Roderick, a [geneticist](/wiki/Geneticist) at the [Jackson
+Laboratory](/wiki/Jackson_Laboratory) ([Bar Harbor,
+Maine](/wiki/Bar_Harbor,_Maine)), over beer at a meeting held in
+[Maryland](/wiki/Maryland) on the mapping of the human genome in 1986.[8]
+
+### Early sequencing
+efforts[[edit](/w/index.php?title=Genomics&action=edit&section=3)]
+
+Following [Rosalind Franklin](/wiki/Rosalind_Franklin)'s confirmation of the
+helical structure of DNA, [James D. Watson](/wiki/James_D._Watson) and
+[Francis Crick](/wiki/Francis_Crick)'s publication of the structure of DNA in
+1953 and [Fred Sanger](/wiki/Fred_Sanger)'s publication of the [Amino
+acid](/wiki/Amino_acid) sequence of insulin in 1955, nucleic acid sequencing
+became a major target of early [molecular
+biologists](/wiki/Molecular_biology).[9] In 1964, [Robert W.
+Holley](/wiki/Robert_W._Holley) and colleagues published the first nucleic
+acid sequence ever determined, the [ribonucleotide](/wiki/Ribonucleic_acid)
+sequence of [alanine](/wiki/Alanine) [transfer RNA](/wiki/TRNA).[10][11]
+Extending this work, [Marshall Nirenberg](/wiki/Marshall_Nirenberg) and
+[Philip Leder](/wiki/Philip_Leder) revealed the triplet nature of the [genetic
+code](/wiki/Genetic_code) and were able to determine the sequences of 54 out
+of 64 [codons](/wiki/Codons) in their experiments.[12] In 1972, [Walter
+Fiers](/wiki/Walter_Fiers) and his team at the Laboratory of Molecular Biology
+of the [University of Ghent](/wiki/University_of_Ghent) ([Ghent](/wiki/Ghent),
+[Belgium](/wiki/Belgium)) were the first to determine the sequence of a gene:
+the gene for [Bacteriophage MS2](/wiki/Bacteriophage_MS2) coat protein.[13]
+Fiers' group expanded on their MS2 coat protein work, determining the complete
+nucleotide-sequence of bacteriophage MS2-RNA (whose genome encodes just four
+genes in 3569 [base pairs](/wiki/Base_pair) [bp]) and [Simian virus
+40](/wiki/SV40) in 1976 and 1978, respectively.[14][15]
+
+### DNA-sequencing technology
+developed[[edit](/w/index.php?title=Genomics&action=edit&section=4)]
+
+![](//upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Frederick_Sanger2.jpg
+/125px-Frederick_Sanger2.jpg)
+
+Frederick Sanger
+
+![](//upload.wikimedia.org/wikipedia/commons/thumb/c/ce/WalterGilbert2.jpg
+/125px-WalterGilbert2.jpg)
+
+Walter Gilbert
+
+[Frederick Sanger](/wiki/Frederick_Sanger) and [Walter
+Gilbert](/wiki/Walter_Gilbert) shared half of the 1980 Nobel Prize in
+Chemistry for Independently developing methods for the sequencing of DNA.
+
+In addition to his seminal work on the amino acid sequence of insulin,
+[Frederick Sanger](/wiki/Frederick_Sanger) and his colleagues played a key
+role in the development of DNA sequencing techniques that enabled the
+establishment of comprehensive genome sequencing projects.[5] In 1975, he and
+Alan Coulson published a sequencing procedure using DNA polymerase with
+radiolabelled nucleotides that he called the _Plus and Minus
+technique_.[16][17] This involved two closely related methods that generated
+short oligonucleotides with defined 3' termini. These could be fractionated by
+[electrophoresis](/wiki/Electrophoresis) on a
+[polyacrylamide](/wiki/Polyacrylamide) gel (called polyacrylamide gel
+electrophoresis) and visualised using autoradiography. The procedure could
+sequence up to 80 nucleotides in one go and was a big improvement, but was
+still very laborious. Nevertheless, in 1977 his group was able to sequence
+most of the 5,386 nucleotides of the single-stranded
+[bacteriophage](/wiki/Bacteriophage) [φX174](/wiki/Phi_X_174), completing the
+first fully sequenced DNA-based genome.[18] The refinement of the _Plus and
+Minus_ method resulted in the chain-termination, or [Sanger
+method](/wiki/Sanger_method) (see [below](/wiki/Genomics#Shotgun_sequencing)),
+which formed the basis of the techniques of DNA sequencing, genome mapping,
+data storage, and bioinformatic analysis most widely used in the following
+quarter-century of research.[19][20] In the same year [Walter
+Gilbert](/wiki/Walter_Gilbert) and [Allan Maxam](/wiki/Allan_Maxam) of
+[Harvard University](/wiki/Harvard_University) independently developed the
+[Maxam-Gilbert](/wiki/Maxam-Gilbert_sequencing) method (also known as the
+_chemical method_) of DNA sequencing, involving the preferential cleavage of
+DNA at known bases, a less efficient method.[21][22] For their groundbreaking
+work in the sequencing of nucleic acids, Gilbert and Sanger shared half the
+1980 [Nobel Prize](/wiki/Nobel_Prize) in chemistry with [Paul
+Berg](/wiki/Paul_Berg) ([recombinant DNA](/wiki/Recombinant_DNA)).
+
+### Complete
+genomes[[edit](/w/index.php?title=Genomics&action=edit&section=5)]
+
+The advent of these technologies resulted in a rapid intensification in the
+scope and speed of completion of [genome sequencing
+projects](/wiki/Genome_project). The first complete genome sequence of a
+[eukaryotic organelle](/wiki/Eukaryotic_organelle), the human
+[mitochondrion](/wiki/Mitochondrion) (16,568 bp, about 16.6 kb [kilobase]),
+was reported in 1981,[23] and the first [chloroplast](/wiki/Chloroplast)
+genomes followed in 1986.[24][25] In 1992, the first eukaryotic
+[chromosome](/wiki/Chromosome), chromosome III of brewer's yeast
+_[Saccharomyces cerevisiae](/wiki/Saccharomyces_cerevisiae)_ (315 kb) was
+sequenced.[26] The first free-living organism to be sequenced was that of
+_[Haemophilus influenzae](/wiki/Haemophilus_influenzae)_ (1.8 Mb [megabase])
+in 1995.[27] The following year a consortium of researchers from laboratories
+across [North America](/wiki/North_America), [Europe](/wiki/Europe), and
+[Japan](/wiki/Japan) announced the completion of the first complete genome
+sequence of a eukaryote, _[S. cerevisiae](/wiki/Saccharomyces_cerevisiae)_
+(12.1 Mb), and since then genomes have continued being sequenced at an
+exponentially growing pace.[28] As of October 2011[[update]](https://en.wikipe
+dia.org/w/index.php?title=Genomics&action=edit), the complete sequences are
+available for: 2,719 [viruses](/wiki/Virus), 1,115 [archaea](/wiki/Archaea)
+and [bacteria](/wiki/Bacteria), and 36 [eukaryotes](/wiki/Eukaryote), of which
+about half are [fungi](/wiki/Fungi).[29][30]
+
+!["Hockey stick" graph showing the exponential growth of public sequence datab
+ases.](//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Number_of_prokaryot
+ic_genomes_and_sequencing_costs.svg/300px-
+Number_of_prokaryotic_genomes_and_sequencing_costs.svg.png)
+
+The number of genome projects has increased as technological improvements
+continue to lower the cost of sequencing. **(A)** Exponential growth of genome
+sequence databases since 1995. **(B)** The cost in US Dollars (USD) to
+sequence one million bases. **(C)** The cost in USD to sequence a 3,000 Mb
+(human-sized) genome on a log-transformed scale.
+
+Most of the microorganisms whose genomes have been completely sequenced are
+problematic [pathogens](/wiki/Pathogen), such as _[Haemophilus
+influenzae](/wiki/Haemophilus_influenzae)_, which has resulted in a pronounced
+bias in their phylogenetic distribution compared to the breadth of microbial
+diversity.[31][32] Of the other sequenced species, most were chosen because
+they were well-studied model organisms or promised to become good models.
+Yeast (_[Saccharomyces cerevisiae](/wiki/Saccharomyces_cerevisiae)_) has long
+been an important [model organism](/wiki/Model_organism) for the [eukaryotic
+cell](/wiki/Eukaryotic_cell), while the fruit fly _[Drosophila
+melanogaster](/wiki/Drosophila_melanogaster)_ has been a very important tool
+(notably in early pre-molecular [genetics](/wiki/Genetics)). The worm
+_[Caenorhabditis elegans](/wiki/Caenorhabditis_elegans)_ is an often used
+simple model for [multicellular organisms](/wiki/Multicellular_organism). The
+zebrafish _[Brachydanio rerio](/wiki/Brachydanio_rerio)_ is used for many
+developmental studies on the molecular level, and the plant _[Arabidopsis
+thaliana](/wiki/Arabidopsis_thaliana)_ is a model organism for flowering
+plants. The [Japanese pufferfish](/wiki/Japanese_pufferfish) (_[Takifugu
+rubripes](/wiki/Takifugu_rubripes)_) and the [spotted green
+pufferfish](/wiki/Spotted_green_pufferfish) (_[Tetraodon
+nigroviridis](/wiki/Tetraodon_nigroviridis)_) are interesting because of their
+small and compact genomes, which contain very little [noncoding
+DNA](/wiki/Noncoding_DNA) compared to most species.[33][34] The mammals dog
+(_[Canis familiaris](/wiki/Canis_familiaris)_),[35] brown rat (_[Rattus
+norvegicus](/wiki/Rattus_norvegicus)_), mouse (_[Mus
+musculus](/wiki/Mus_musculus)_), and chimpanzee (_[Pan
+troglodytes](/wiki/Pan_troglodytes)_) are all important model animals in
+medical research.[22]
+
+A rough draft of the [human genome](/wiki/Human_genome) was completed by the
+[Human Genome Project](/wiki/Human_Genome_Project) in early 2001, creating
+much fanfare.[36] This project, completed in 2003, sequenced the entire genome
+for one specific person, and by 2007 this sequence was declared "finished"
+(less than one error in 20,000 bases and all chromosomes assembled).[36] In
+the years since then, the genomes of many other individuals have been
+sequenced, partly under the auspices of the [1000 Genomes
+Project](/wiki/1000_Genomes_Project), which announced the sequencing of 1,092
+genomes in October 2012.[37] Completion of this project was made possible by
+the development of dramatically more efficient sequencing technologies and
+required the commitment of significant [bioinformatics](/wiki/Bioinformatics)
+resources from a large international collaboration.[38] The continued analysis
+of human genomic data has profound political and social repercussions for
+human societies.[39]
+
+### The "omics"
+revolution[[edit](/w/index.php?title=Genomics&action=edit&section=6)]
+
+![](//upload.wikimedia.org/wikipedia/en/thumb/9/98/Metabolomics_schema.png
+/220px-Metabolomics_schema.png)
+
+General schema showing the relationships of the [genome](/wiki/Genome),
+[transcriptome](/wiki/Transcriptome), [proteome](/wiki/Proteome), and
+[metabolome](/wiki/Metabolome) ([lipidome](/wiki/Lipidome)).
+
+Main articles: [Omics](/wiki/Omics) and [Human proteome
+project](/wiki/Human_proteome_project)
+
+The English-language [neologism](/wiki/Neologism) **omics** informally refers
+to a field of study in biology ending in _-omics_, such as genomics,
+[proteomics](/wiki/Proteomics) or [metabolomics](/wiki/Metabolomics). The
+related suffix **-ome** is used to address the objects of study of such
+fields, such as the [genome](/wiki/Genome), [proteome](/wiki/Proteome) or
+[metabolome](/wiki/Metabolome) respectively. The suffix _-ome_ as used in
+molecular biology refers to a _totality_ of some sort; similarly **omics** has
+come to refer generally to the study of large, comprehensive biological data
+sets. While the growth in the use of the term has led some scientists
+([Jonathan Eisen](/wiki/Jonathan_Eisen), among others[40]) to claim that it
+has been oversold,[41] it reflects the change in orientation towards the
+quantitative analysis of complete or near-complete assortment of all the
+constituents of a system.[42] In the study of [symbioses](/wiki/Symbiosis),
+for example, researchers which were once limited to the study of a single gene
+product can now simultaneously compare the total complement of several types
+of biological molecules.[43][44]
+
+## Genome analysis[[edit](/w/index.php?title=Genomics&action=edit&section=7)]
+
+Main article: [Genome project](/wiki/Genome_project)
+
+After an organism has been selected, genome projects involve three components:
+the sequencing of DNA, the assembly of that sequence to create a
+representation of the original chromosome, and the annotation and analysis of
+that representation.[5]
+
+![](//upload.wikimedia.org/wikipedia/commons/thumb/5/58/Genome_sequencing_proj
+ect_flowchart.svg/300px-Genome_sequencing_project_flowchart.svg.png)
+
+Overview of a genome project. First, the genome must be selected, which
+involves several factors including cost and relevance. Second, the sequence is
+generated and assembled at a given sequencing center (such as
+[BGI](/wiki/Beijing_Genomics_Institute) or [DOE
+JGI](/wiki/DOE_Joint_Genome_Institute)). Third, the genome sequence is
+annotated at several levels: DNA, protein, gene pathways, or comparatively.
+
+### Sequencing[[edit](/w/index.php?title=Genomics&action=edit&section=8)]
+
+Main article: [DNA Sequencing](/wiki/DNA_Sequencing)
+
+Historically, sequencing was done in _sequencing centers_, centralized
+facilities (ranging from large independent institutions such as [Joint Genome
+Institute](/wiki/Joint_Genome_Institute) which sequence dozens of terabases a
+year, to local molecular biology core facilities) which contain research
+laboratories with the costly instrumentation and technical support necessary.
+As sequencing technology continues to improve, however, a new generation of
+effective fast turnaround benchtop sequencers has come within reach of the
+average academic laboratory.[45][46] On the whole, genome sequencing
+approaches fall into two broad categories, _shotgun_ and _high-throughput_ (or
+_next-generation_) sequencing.[5]
+
+#### Shotgun
+sequencing[[edit](/w/index.php?title=Genomics&action=edit&section=9)]
+
+![](//upload.wikimedia.org/wikipedia/commons/thumb/1/1d/ABI_PRISM_3100_Genetic
+_Analyzer_3.jpg/220px-ABI_PRISM_3100_Genetic_Analyzer_3.jpg)
+
+An ABI PRISM 3100 Genetic Analyzer. Such capillary sequencers automated early
+large-scale genome sequencing efforts.
+
+Main article: [Shotgun sequencing](/wiki/Shotgun_sequencing)
+
+Shotgun sequencing is a sequencing method designed for analysis of DNA
+sequences longer than 1000 base pairs, up to and including entire
+chromosomes.[47] It is named by analogy with the rapidly expanding, quasi-
+random firing pattern of a [shotgun](/wiki/Shotgun). Since gel electrophoresis
+sequencing can only be used for fairly short sequences (100 to 1000 base
+pairs), longer DNA sequences must be broken into random small segments which
+are then sequenced to obtain _reads_. Multiple overlapping reads for the
+target DNA are obtained by performing several rounds of this fragmentation and
+sequencing. Computer programs then use the overlapping ends of different reads
+to assemble them into a continuous sequence.[47][48] Shotgun sequencing is a
+random sampling process, requiring over-sampling to ensure a given
+[nucleotide](/wiki/Nucleotide) is represented in the reconstructed sequence;
+the average number of reads by which a genome is over-sampled is referred to
+as [coverage](/wiki/Shotgun_sequencing#Coverage).[49]
+
+For much of its history, the technology underlying shotgun sequencing was the
+classical chain-termination method or '[Sanger
+method](/wiki/Sanger_sequencing)', which is based on the selective
+incorporation of chain-terminating
+[dideoxynucleotides](/wiki/Dideoxynucleotide) by [DNA
+polymerase](/wiki/DNA_polymerase) during [in vitro](/wiki/In_vitro) [DNA
+replication](/wiki/DNA_replication).[18][50] Recently, shotgun sequencing has
+been supplanted by [high-throughput sequencing](/wiki/Dna_sequencing#Next-
+generation_methods) methods, especially for large-scale, automated
+[genome](/wiki/Genome) analyses. However, the Sanger method remains in wide
+use, primarily for smaller-scale projects and for obtaining especially long
+contiguous DNA sequence reads (>500 nucleotides).[51] Chain-termination
+methods require a single-stranded DNA template, a DNA
+[primer](/wiki/Primer_\(molecular_biology\)), a [DNA
+polymerase](/wiki/DNA_polymerase), normal deoxynucleosidetriphosphates
+(dNTPs), and modified nucleotides (dideoxyNTPs) that terminate DNA strand
+elongation. These chain-terminating nucleotides lack a 3'-[OH](/wiki/Hydroxyl)
+group required for the formation of a [phosphodiester
+bond](/wiki/Phosphodiester_bond) between two nucleotides, causing DNA
+polymerase to cease extension of DNA when a ddNTP is incorporated. The ddNTPs
+may be radioactively or [fluorescently](/wiki/Fluorescence) labelled for
+detection in [DNA sequencers](/wiki/DNA_sequencer).[5] Typically, these
+machines can sequence up to 96 DNA samples in a single batch (run) in up to 48
+runs a day.[52]
+
+#### High-throughput
+sequencing[[edit](/w/index.php?title=Genomics&action=edit&section=10)]
+
+See also: [Illumina dye sequencing](/wiki/Illumina_dye_sequencing) and [Ion
+semiconductor sequencing](/wiki/Ion_semiconductor_sequencing)
+
+The high demand for low-cost sequencing has driven the development of high-
+throughput sequencing technologies that
+[parallelize](/wiki/Multiplex_\(assay\)) the sequencing process, producing
+thousands or millions of sequences at once.[53][54] High-throughput sequencing
+is intended to lower the cost of DNA sequencing beyond what is possible with
+standard dye-terminator methods. In ultra-high-throughput sequencing, as many
+as 500,000 sequencing-by-synthesis operations may be run in parallel.[55][56]
+
+![](//upload.wikimedia.org/wikipedia/commons/thumb/5/58/Illumina_Genome_Analyz
+er_II_System.jpg/220px-Illumina_Genome_Analyzer_II_System.jpg)
+
+Illumina Genome Analyzer II System. Illumina technologies have set the
+standard for high-throughput massively parallel sequencing.[45]
+
+The [Illumina dye sequencing](/wiki/Illumina_dye_sequencing) method is based
+on reversible dye-terminators and was developed in 1996 at the Geneva
+Biomedical Research Institute, by Pascal Mayer and Laurent Farinelli.[57] In
+this method, DNA molecules and primers are first attached on a slide and
+amplified with [polymerase](/wiki/Polymerase) so that local clonal colonies,
+initially coined "DNA colonies", are formed. To determine the sequence, four
+types of reversible terminator bases (RT-bases) are added and non-incorporated
+nucleotides are washed away. Unlike pyrosequencing, the DNA chains are
+extended one nucleotide at a time and image acquisition can be performed at a
+delayed moment, allowing for very large arrays of DNA colonies to be captured
+by sequential images taken from a single camera. Decoupling the enzymatic
+reaction and the image capture allows for optimal throughput and theoretically
+unlimited sequencing capacity; with an optimal configuration, the ultimate
+throughput of the instrument depends only on the [A/D conversion](/wiki
+/Analog-to-digital_converter) rate of the camera. The camera takes images of
+the [fluorescently labeled](/wiki/Fluorescent_labeling) nucleotides, then the
+dye along with the terminal 3' blocker is chemically removed from the DNA,
+allowing the next cycle.[58]
+
+An alternative approach, [ion semiconductor
+sequencing](/wiki/Ion_semiconductor_sequencing), is based on standard DNA
+replication chemistry. This technology measures the release of a hydrogen ion
+each time a base is incorporated. A microwell containing template DNA is
+flooded with a single [nucleotide](/wiki/Nucleotide), if the nucleotide is
+complementary to the template strand it will be incorporated and a hydrogen
+ion will be released. This release triggers an [ISFET](/wiki/ISFET) ion
+sensor. If a [homopolymer](/wiki/Homopolymer) is present in the template
+sequence multiple nucleotides will be incorporated in a single flood cycle,
+and the detected electrical signal will be proportionally higher.[59]
+
+### Assembly[[edit](/w/index.php?title=Genomics&action=edit&section=11)]
+
+Main article: [Sequence assembly](/wiki/Sequence_assembly)
+
+![](//upload.wikimedia.org/wikipedia/commons/thumb/6/6e/PET_contig_scaffold.pn
+g/300px-PET_contig_scaffold.png)
+
+Overlapping reads form contigs; contigs and gaps of known length form
+scaffolds.
+
+![](//upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Mapping_Reads.png
+/300px-Mapping_Reads.png)
+
+Paired end reads of next generation sequencing data mapped to a reference
+genome.
+
+Multiple, fragmented sequence reads must be assembled together on the basis of
+their overlapping areas.
+
+[Sequence assembly](/wiki/Sequence_assembly) refers to
+[aligning](/wiki/Sequence_alignment) and merging fragments of a much longer
+[DNA](/wiki/DNA) sequence in order to reconstruct the original sequence.[5]
+This is needed as current [DNA sequencing](/wiki/DNA_sequencing) technology
+cannot read whole genomes as a continuous sequence, but rather reads small
+pieces of between 20 and 1000 bases, depending on the technology used. Third
+generation sequencing technologies such as PacBio or Oxford Nanopore routinely
+generate sequencing reads >10 kb in length; however, they have a high error
+rate at approximately 15 percent.[60][61] Typically the short fragments,
+called reads, result from [shotgun sequencing](/wiki/Shotgun_sequencing)
+[genomic](/wiki/Genome) DNA, or [gene
+transcripts](/wiki/Transcription_\(genetics\))
+([ESTs](/wiki/Expressed_sequence_tag)).[5]
+
+#### Assembly
+approaches[[edit](/w/index.php?title=Genomics&action=edit&section=12)]
+
+Assembly can be broadly categorized into two approaches: _de novo_ assembly,
+for genomes which are not similar to any sequenced in the past, and
+comparative assembly, which uses the existing sequence of a closely related
+organism as a reference during assembly.[49] Relative to comparative assembly,
+_de novo_ assembly is computationally difficult ([NP-hard](/wiki/NP-hard)),
+making it less favourable for short-read NGS technologies. Within the _de
+novo_ assembly paradigm there are two primary strategies for assembly,
+Eulerian path strategies, and overlap-layout-consensus (OLC) strategies. OLC
+strategies ultimately try to create a Hamiltonian path through an overlap
+graph which is an NP-hard problem. Eulerian path strategies are
+computationally more tractable because they try to find a Eulerian path
+through a deBruijn graph.[49]
+
+#### Finishing[[edit](/w/index.php?title=Genomics&action=edit&section=13)]
+
+Finished genomes are defined as having a single contiguous sequence with no
+ambiguities representing each [replicon](/wiki/Replicon_\(genetics\)).[62]
+
+### Annotation[[edit](/w/index.php?title=Genomics&action=edit&section=14)]
+
+Main article: [Genome annotation](/wiki/Genome_annotation)
+
+The DNA sequence assembly alone is of little value without additional
+analysis.[5] [Genome annotation](/wiki/Genome_annotation) is the process of
+attaching biological information to [sequences](/wiki/DNA_sequence), and
+consists of three main steps:[63]
+
+  1. identifying portions of the genome that do not code for proteins
+  2. identifying elements on the [genome](/wiki/Genome), a process called [gene prediction](/wiki/Gene_prediction), and
+  3. attaching biological information to these elements.
+
+Automatic annotation tools try to perform these steps _[in
+silico](/wiki/In_silico)_, as opposed to manual annotation (a.k.a. curation)
+which involves human expertise and potential experimental verification.[64]
+Ideally, these approaches co-exist and complement each other in the same
+annotation [pipeline](/wiki/Pipeline_\(computing\)) (also see
+[below](/wiki/Genomics#Sequencing_pipelines)).
+
+Traditionally, the basic level of annotation is using [BLAST](/wiki/BLAST) for
+finding similarities, and then annotating genomes based on homologues.[5] More
+recently, additional information is added to the annotation platform. The
+additional information allows manual annotators to deconvolute discrepancies
+between genes that are given the same annotation. Some databases use genome
+context information, similarity scores, experimental data, and integrations of
+other resources to provide genome annotations through their Subsystems
+approach. Other databases (e.g. [Ensembl](/wiki/Ensembl)) rely on both curated
+data sources as well as a range of software tools in their automated genome
+annotation pipeline.[65] _Structural annotation_ consists of the
+identification of genomic elements, primarily [ORFs](/wiki/Open_reading_frame)
+and their localisation, or gene structure. _Functional annotation_ consists of
+attaching biological information to genomic elements.
+
+### Sequencing pipelines and
+databases[[edit](/w/index.php?title=Genomics&action=edit&section=15)]
+
+The need for reproducibility and efficient management of the large amount of
+data associated with genome projects mean that [computational
+pipelines](/wiki/Pipeline_\(software\)) have important applications in
+genomics.[66]
+
+## Research areas[[edit](/w/index.php?title=Genomics&action=edit&section=16)]
+
+### Functional
+genomics[[edit](/w/index.php?title=Genomics&action=edit&section=17)]
+
+Main article: [Functional genomics](/wiki/Functional_genomics)
+
+[Functional genomics](/wiki/Functional_genomics) is a field of [molecular
+biology](/wiki/Molecular_biology) that attempts to make use of the vast wealth
+of data produced by genomic projects (such as [genome sequencing
+projects](/wiki/Genome_project)) to describe [gene](/wiki/Gene) (and
+[protein](/wiki/Protein)) functions and interactions. Functional genomics
+focuses on the dynamic aspects such as gene
+[transcription](/wiki/Transcription_\(genetics\)),
+[translation](/wiki/Translation_\(biology\)), and [protein–protein
+interactions](/wiki/Protein%E2%80%93protein_interaction), as opposed to the
+static aspects of the genomic information such as [DNA
+sequence](/wiki/DNA_sequence) or structures. Functional genomics attempts to
+answer questions about the function of DNA at the levels of genes, RNA
+transcripts, and protein products. A key characteristic of functional genomics
+studies is their genome-wide approach to these questions, generally involving
+high-throughput methods rather than a more traditional “gene-by-gene”
+approach.
+
+A major branch of genomics is still concerned with
+[sequencing](/wiki/Sequencing) the genomes of various organisms, but the
+knowledge of full genomes has created the possibility for the field of
+[functional genomics](/wiki/Functional_genomics), mainly concerned with
+patterns of [gene expression](/wiki/Gene_expression) during various
+conditions. The most important tools here are [microarrays](/wiki/Microarray)
+and [bioinformatics](/wiki/Bioinformatics).
+
+### Structural
+genomics[[edit](/w/index.php?title=Genomics&action=edit&section=18)]
+
+Main article: [Structural genomics](/wiki/Structural_genomics)
+
+![](//upload.wikimedia.org/wikipedia/commons/thumb/8/86/Argonne%27s_Midwest_Ce
+nter_for_Structural_Genomics_deposits_1%2C000th_protein_structure.jpg/300px-Ar
+gonne%27s_Midwest_Center_for_Structural_Genomics_deposits_1%2C000th_protein_st
+ructure.jpg)
+
+An example of a protein structure determined by the Midwest Center for
+Structural Genomics.
+
+[Structural genomics](/wiki/Structural_genomics) seeks to describe the
+[3-dimensional structure](/wiki/Protein_Structure) of every protein encoded by
+a given [genome](/wiki/Genome).[67][68] This genome-based approach allows for
+a high-throughput method of structure determination by a combination of
+[experimental and modeling approaches](/wiki/Protein_structure_prediction).
+The principal difference between structural genomics and [traditional
+structural prediction](/wiki/Protein_structure_prediction) is that structural
+genomics attempts to determine the structure of every protein encoded by the
+genome, rather than focusing on one particular protein. With full-genome
+sequences available, structure prediction can be done more quickly through a
+combination of experimental and modeling approaches, especially because the
+availability of large numbers of sequenced genomes and previously solved
+protein structures allow scientists to model protein structure on the
+structures of previously solved homologs. Structural genomics involves taking
+a large number of approaches to structure determination, including
+experimental methods using genomic sequences or modeling-based approaches
+based on sequence or [structural homology](/wiki/Homology_modeling) to a
+protein of known structure or based on chemical and physical principles for a
+protein with no homology to any known structure. As opposed to traditional
+[structural biology](/wiki/Structural_biology), the determination of a
+[protein structure](/wiki/Protein_structure) through a structural genomics
+effort often (but not always) comes before anything is known regarding the
+protein function. This raises new challenges in [structural
+bioinformatics](/wiki/Structural_bioinformatics), i.e. determining protein
+function from its [3D](/wiki/Three-dimensional_space) structure.[69]
+
+### Epigenomics[[edit](/w/index.php?title=Genomics&action=edit&section=19)]
+
+Main article: [Epigenomics](/wiki/Epigenomics)
+
+[Epigenomics](/wiki/Epigenomics) is the study of the complete set of
+[epigenetic](/wiki/Epigenetic) modifications on the genetic material of a
+cell, known as the [epigenome](/wiki/Epigenome).[70] Epigenetic modifications
+are reversible modifications on a cell's DNA or histones that affect gene
+expression without altering the DNA sequence (Russell 2010 p. 475). Two of the
+most characterized epigenetic modifications are [DNA
+methylation](/wiki/DNA_methylation) and [histone
+modification](/wiki/Epigenetics#DNA_methylation_and_chromatin_remodeling).
+Epigenetic modifications play an important role in gene expression and
+regulation, and are involved in numerous cellular processes such as in
+[differentiation/development](/wiki/Epigenetics#Development) and
+[tumorigenesis](/wiki/Epigenetics#Cancer_and_developmental_abnormalities).[70]
+The study of epigenetics on a global level has been made possible only
+recently through the adaptation of genomic high-throughput assays.[71]
+
+### Metagenomics[[edit](/w/index.php?title=Genomics&action=edit&section=20)]
+
+![](//upload.wikimedia.org/wikipedia/commons/thumb/7/79/Environmental_shotgun_
+sequencing.png/170px-Environmental_shotgun_sequencing.png)
+
+Environmental Shotgun Sequencing (ESS) is a key technique in metagenomics. (A)
+Sampling from habitat; (B) filtering particles, typically by size; (C) Lysis
+and DNA extraction; (D) cloning and library construction; (E) sequencing the
+clones; (F) sequence assembly into contigs and scaffolds.
+
+Main article: [Metagenomics](/wiki/Metagenomics)
+
+[Metagenomics](/wiki/Metagenomics) is the study of _metagenomes_,
+[genetic](/wiki/Genetics) material recovered directly from
+[environmental](/wiki/Natural_environment) samples. The broad field may also
+be referred to as environmental genomics, ecogenomics or community genomics.
+While traditional [microbiology](/wiki/Microbiology) and microbial [genome
+sequencing](/wiki/Genome_sequencing) rely upon cultivated
+[clonal](/wiki/Clone_\(genetics\)) [cultures](/wiki/Microbiological_culture),
+early environmental gene sequencing cloned specific genes (often the [16S
+rRNA](/wiki/16S_ribosomal_RNA) gene) to produce a [profile of
+diversity](/wiki/Microbial_ecology) in a natural sample. Such work revealed
+that the vast majority of [microbial biodiversity](/wiki/Biodiversity) had
+been missed by [cultivation-based](/wiki/Microbiological_culture) methods.[72]
+Recent studies use "shotgun" [Sanger
+sequencing](/wiki/Chain_termination_method) or massively parallel
+[pyrosequencing](/wiki/Pyrosequencing) to get largely unbiased samples of all
+genes from all the members of the sampled communities.[73] Because of its
+power to reveal the previously hidden diversity of microscopic life,
+metagenomics offers a powerful lens for viewing the microbial world that has
+the potential to revolutionize understanding of the entire living
+world.[74][75]
+
+### Model systems[[edit](/w/index.php?title=Genomics&action=edit&section=21)]
+
+#### Viruses and
+bacteriophages[[edit](/w/index.php?title=Genomics&action=edit&section=22)]
+
+[Bacteriophages](/wiki/Bacteriophage) have played and continue to play a key
+role in bacterial [genetics](/wiki/Genetics) and [molecular
+biology](/wiki/Molecular_biology). Historically, they were used to define
+[gene](/wiki/Gene) structure and gene regulation. Also the first
+[genome](/wiki/Genome) to be sequenced was a
+[bacteriophage](/wiki/Bacteriophage). However, bacteriophage research did not
+lead the genomics revolution, which is clearly dominated by bacterial
+genomics. Only very recently has the study of bacteriophage genomes become
+prominent, thereby enabling researchers to understand the mechanisms
+underlying [phage](/wiki/Phage) evolution. Bacteriophage genome sequences can
+be obtained through direct sequencing of isolated bacteriophages, but can also
+be derived as part of microbial genomes. Analysis of bacterial genomes has
+shown that a substantial amount of microbial DNA consists of
+[prophage](/wiki/Prophage) sequences and prophage-like elements.[76] A
+detailed database mining of these sequences offers insights into the role of
+prophages in shaping the bacterial genome: Overall, this method verified many
+known bacteriophage groups, making this a useful tool for predicting the
+relationships of prophages from bacterial genomes.[77][78]
+
+#### Cyanobacteria[[edit](/w/index.php?title=Genomics&action=edit&section=23)]
+
+At present there are 24 [cyanobacteria](/wiki/Cyanobacteria) for which a total
+genome sequence is available. 15 of these cyanobacteria come from the marine
+environment. These are six _[Prochlorococcus](/wiki/Prochlorococcus)_ strains,
+seven marine _[Synechococcus](/wiki/Synechococcus)_ strains, _[Trichodesmium
+erythraeum](/wiki/Trichodesmium_erythraeum)_ IMS101 and _[Crocosphaera
+watsonii](/wiki/Crocosphaera_watsonii)_
+[WH8501](/w/index.php?title=WH8501&action=edit&redlink=1). Several studies
+have demonstrated how these sequences could be used very successfully to infer
+important ecological and physiological characteristics of marine
+cyanobacteria. However, there are many more genome projects currently in
+progress, amongst those there are further
+_[Prochlorococcus](/wiki/Prochlorococcus)_ and marine
+_[Synechococcus](/wiki/Synechococcus)_ isolates,
+_[Acaryochloris](/wiki/Acaryochloris)_ and _[Prochloron](/wiki/Prochloron)_,
+the N2-fixing filamentous cyanobacteria _[Nodularia](/wiki/Nodularia)
+spumigena_, _[Lyngbya
+aestuarii](/w/index.php?title=Lyngbya_aestuarii&action=edit&redlink=1)_ and
+_[Lyngbya majuscula](/wiki/Lyngbya_majuscula)_, as well as
+[bacteriophages](/wiki/Bacteriophage) infecting marine cyanobaceria. Thus, the
+growing body of genome information can also be tapped in a more general way to
+address global problems by applying a comparative approach. Some new and
+exciting examples of progress in this field are the identification of genes
+for regulatory RNAs, insights into the evolutionary origin of
+[photosynthesis](/wiki/Photosynthesis), or estimation of the contribution of
+[horizontal gene transfer](/wiki/Horizontal_gene_transfer) to the genomes that
+have been analyzed.[79]
+
+## Applications of
+genomics[[edit](/w/index.php?title=Genomics&action=edit&section=24)]
+
+Genomics has provided applications in many fields, including
+[medicine](/wiki/Medicine), [biotechnology](/wiki/Biotechnology),
+[anthropology](/wiki/Anthropology) and other [social
+sciences](/wiki/Social_sciences).[39]
+
+### Genomic
+medicine[[edit](/w/index.php?title=Genomics&action=edit&section=25)]
+
+Next-generation genomic technologies allow clinicians and biomedical
+researchers to drastically increase the amount of genomic data collected on
+large study populations.[80] When combined with new informatics approaches
+that integrate many kinds of data with genomic data in disease research, this
+allows researchers to better understand the genetic bases of drug response and
+disease.[81][82] Early efforts to apply the genome to medicine included those
+by a Stanford team led by [Euan Ashley](/wiki/Euan_Ashley) who developed the
+first tools for the medical interpretation of a human genome.[83][84][85] The
+Genomes2People research program at [Brigham and Women’s
+Hospital](/wiki/Brigham_and_Women%E2%80%99s_Hospital), [Broad
+Institute](/wiki/Broad_Institute) and Harvard Medical School was established
+in 2012 to conduct empirical research in translating genomics into health.
+[Brigham and Women's Hospital](/wiki/Brigham_and_Women%27s_Hospital) opened a
+Preventive Genomics Clinic in August 2019, with [Massachusetts General
+Hospital](/wiki/Massachusetts_General_Hospital) following a month
+later.[86][87] The _All of Us_ research program aims to collect genome
+sequence data from 1 million participants to become a critical component of
+the precision medicine research platform.[88]
+
+### Synthetic biology and
+bioengineering[[edit](/w/index.php?title=Genomics&action=edit&section=26)]
+
+The growth of genomic knowledge has enabled increasingly sophisticated
+applications of [synthetic biology](/wiki/Synthetic_biology).[89] In 2010
+researchers at the [J. Craig Venter
+Institute](/wiki/J._Craig_Venter_Institute) announced the creation of a
+partially synthetic species of [bacterium](/wiki/Bacterium), _[Mycoplasma
+laboratorium](/wiki/Mycoplasma_laboratorium)_, derived from the
+[genome](/wiki/Genome) of _[Mycoplasma
+genitalium](/wiki/Mycoplasma_genitalium)_.[90]
+
+### Population and conservation
+genomics[[edit](/w/index.php?title=Genomics&action=edit&section=27)]
+
+**[Population genomics](/wiki/Population_genomics)** has developed as a popular field of research, where genomic sequencing methods are used to conduct large-scale comparisons of DNA sequences among populations - beyond the limits of genetic markers such as short-range [PCR](/wiki/Polymerase_chain_reaction) products or [microsatellites](/wiki/Microsatellites) traditionally used in [population genetics](/wiki/Population_genetics). Population genomics studies [genome](/wiki/Genome)-wide effects to improve our understanding of [microevolution](/wiki/Microevolution) so that we may learn the [phylogenetic](/wiki/Phylogenetic) history and [demography](/wiki/Demography) of a population.[91] Population genomic methods are used for many different fields including [evolutionary biology](/wiki/Evolutionary_biology), [ecology](/wiki/Ecology), [biogeography](/wiki/Biogeography), [conservation biology](/wiki/Conservation_biology) and [fisheries management](/wiki/Fisheries_management). Similarly, **[landscape genomics](/wiki/Landscape_genomics)** has developed from [landscape genetics](/wiki/Landscape_genetics) to use genomic methods to identify relationships between patterns of environmental and genetic variation. 
+
+Conservationists can use the information gathered by genomic sequencing in
+order to better evaluate genetic factors key to species conservation, such as
+the [genetic diversity](/wiki/Genetic_diversity) of a population or whether an
+individual is heterozygous for a recessive inherited genetic disorder.[92] By
+using genomic data to evaluate the effects of [evolutionary
+processes](/wiki/Evolutionary_process) and to detect patterns in variation
+throughout a given population, conservationists can formulate plans to aid a
+given species without as many variables left unknown as those unaddressed by
+standard [genetic approaches](/wiki/Conservation_genetics).[93]
+
+## See also[[edit](/w/index.php?title=Genomics&action=edit&section=28)]
+
+  * ![icon](//upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Issoria_lathonia.jpg/32px-Issoria_lathonia.jpg)[Biology portal](/wiki/Portal:Biology)
+
+  * [Cognitive genomics](/wiki/Cognitive_genomics)
+  * [Computational genomics](/wiki/Computational_genomics)
+  * [Epigenomics](/wiki/Epigenomics)
+  * [Functional genomics](/wiki/Functional_genomics)
+  * [GeneCalling](/wiki/GeneCalling), an mRNA profiling technology
+  * [Genomics of domestication](/wiki/Genomics_of_domestication)
+  * [Genetics in fiction](/wiki/Genetics_in_fiction)
+  * [Glycomics](/wiki/Glycomics)
+  * [Immunomics](/wiki/Immunomics)
+  * [Metagenomics](/wiki/Metagenomics)
+  * [Pathogenomics](/wiki/Pathogenomics)
+  * [Personal genomics](/wiki/Personal_genomics)
+  * [Proteomics](/wiki/Proteomics)
+  * [Transcriptomics](/wiki/Transcriptomics)
+  * [Psychogenomics](/wiki/Psychogenomics)
+  * [Whole genome sequencing](/wiki/Whole_genome_sequencing)
+  * [Thomas Roderick](/wiki/Thomas_Roderick)
+
+## References[[edit](/w/index.php?title=Genomics&action=edit&section=29)]
+
+  1. **^** ["WHO definitions of genetics and genomics"](https://www.who.int/genomics/geneticsVSgenomics/en/). World Health Organization.
+  2. **^** _Concepts of genetics_ (10th ed.). San Francisco: Pearson Education. 2012. [ISBN](/wiki/ISBN_\(identifier\)) [978-0-321-72412-0](/wiki/Special:BookSources/978-0-321-72412-0).
+  3. **^** Culver KW, Labow MA (8 November 2002). ["Genomics"](https://archive.org/details/genetics0000unse). In Robinson R (ed.). _Genetics_. Macmillan Science Library. Macmillan Reference USA. [ISBN](/wiki/ISBN_\(identifier\)) [978-0-02-865606-9](/wiki/Special:BookSources/978-0-02-865606-9).
+  4. **^** Kadakkuzha BM, Puthanveettil SV (July 2013). ["Genomics and proteomics in solving brain complexity"](//www.ncbi.nlm.nih.gov/pmc/articles/PMC6425491). _Molecular BioSystems_. **9** (7): 1807–21. [doi](/wiki/Doi_\(identifier\)):[10.1039/C3MB25391K](https://doi.org/10.1039%2FC3MB25391K). [PMC](/wiki/PMC_\(identifier\)) [6425491](//www.ncbi.nlm.nih.gov/pmc/articles/PMC6425491). [PMID](/wiki/PMID_\(identifier\)) [23615871](//pubmed.ncbi.nlm.nih.gov/23615871).
+  5. ^ _**a**_ _**b**_ _**c**_ _**d**_ _**e**_ _**f**_ _**g**_ _**h**_ _**i**_ Pevsner J (2009). _[Bioinformatics and functional genomics_](https://archive.org/details/bioinformaticsfu00pevs_0) (2nd ed.). Hoboken, NJ: Wiley-Blackwell. [ISBN](/wiki/ISBN_\(identifier\)) [978-0-470-08585-1](/wiki/Special:BookSources/978-0-470-08585-1).
+  6. **^** Liddell HG, Scott R (2013). _Intermediate Greek-English Lexicon_. Martino Fine Books. [ISBN](/wiki/ISBN_\(identifier\)) [978-1-61427-397-4](/wiki/Special:BookSources/978-1-61427-397-4).
+  7. **^** ["Genome, n"](http://www.oed.com/view/Entry/7761). _Oxford English Dictionary_ (Third ed.). Oxford University Press. 2008. Retrieved 2012-12-01.(subscription required)
+  8. **^** Yadav SP (December 2007). ["The wholeness in suffix -omics, -omes, and the word om"](//www.ncbi.nlm.nih.gov/pmc/articles/PMC2392988). _Journal of Biomolecular Techniques_. **18** (5): 277. [PMC](/wiki/PMC_\(identifier\)) [2392988](//www.ncbi.nlm.nih.gov/pmc/articles/PMC2392988). [PMID](/wiki/PMID_\(identifier\)) [18166670](//pubmed.ncbi.nlm.nih.gov/18166670).
+  9. **^** Ankeny RA (June 2003). "Sequencing the genome from nematode to human: changing methods, changing science". _Endeavour_. **27** (2): 87–92. [doi](/wiki/Doi_\(identifier\)):[10.1016/S0160-9327(03)00061-9](https://doi.org/10.1016%2FS0160-9327%2803%2900061-9). [PMID](/wiki/PMID_\(identifier\)) [12798815](//pubmed.ncbi.nlm.nih.gov/12798815).
+  10. **^** Holley RW, Everett GA, Madison JT, Zamir A (May 1965). ["Nucleotide sequences in the yeast alanine transfer ribonucleic acid"](http://www.jbc.org/content/240/5/2122.full.pdf) (PDF). _The Journal of Biological Chemistry_. **240** (5): 2122–8. [doi](/wiki/Doi_\(identifier\)):[10.1016/S0021-9258(18)97435-1](https://doi.org/10.1016%2FS0021-9258%2818%2997435-1). [PMID](/wiki/PMID_\(identifier\)) [14299636](//pubmed.ncbi.nlm.nih.gov/14299636).
+  11. **^** Holley RW, Apgar J, Everett GA, Madison JT, Marquisee M, Merrill SH, Penswick JR, Zamir A (March 1965). "Structure of a ribonucleic acid". _Science_. **147** (3664): 1462–5. [Bibcode](/wiki/Bibcode_\(identifier\)):[1965Sci...147.1462H](https://ui.adsabs.harvard.edu/abs/1965Sci...147.1462H). [doi](/wiki/Doi_\(identifier\)):[10.1126/science.147.3664.1462](https://doi.org/10.1126%2Fscience.147.3664.1462). [PMID](/wiki/PMID_\(identifier\)) [14263761](//pubmed.ncbi.nlm.nih.gov/14263761). [S2CID](/wiki/S2CID_\(identifier\)) [40989800](https://api.semanticscholar.org/CorpusID:40989800).
+  12. **^** Nirenberg M, Leder P, Bernfield M, Brimacombe R, Trupin J, Rottman F, O'Neal C (May 1965). ["RNA codewords and protein synthesis, VII. On the general nature of the RNA code"](//www.ncbi.nlm.nih.gov/pmc/articles/PMC301388). _Proceedings of the National Academy of Sciences of the United States of America_. **53** (5): 1161–8. [Bibcode](/wiki/Bibcode_\(identifier\)):[1965PNAS...53.1161N](https://ui.adsabs.harvard.edu/abs/1965PNAS...53.1161N). [doi](/wiki/Doi_\(identifier\)):[10.1073/pnas.53.5.1161](https://doi.org/10.1073%2Fpnas.53.5.1161). [PMC](/wiki/PMC_\(identifier\)) [301388](//www.ncbi.nlm.nih.gov/pmc/articles/PMC301388). [PMID](/wiki/PMID_\(identifier\)) [5330357](//pubmed.ncbi.nlm.nih.gov/5330357).
+  13. **^** Min Jou W, Haegeman G, Ysebaert M, Fiers W (May 1972). "Nucleotide sequence of the gene coding for the bacteriophage MS2 coat protein". _Nature_. **237** (5350): 82–8. [Bibcode](/wiki/Bibcode_\(identifier\)):[1972Natur.237...82J](https://ui.adsabs.harvard.edu/abs/1972Natur.237...82J). [doi](/wiki/Doi_\(identifier\)):[10.1038/237082a0](https://doi.org/10.1038%2F237082a0). [PMID](/wiki/PMID_\(identifier\)) [4555447](//pubmed.ncbi.nlm.nih.gov/4555447). [S2CID](/wiki/S2CID_\(identifier\)) [4153893](https://api.semanticscholar.org/CorpusID:4153893).
+  14. **^** Fiers W, Contreras R, Duerinck F, Haegeman G, Iserentant D, Merregaert J, et al. (April 1976). "Complete nucleotide sequence of bacteriophage MS2 RNA: primary and secondary structure of the replicase gene". _Nature_. **260** (5551): 500–7. [Bibcode](/wiki/Bibcode_\(identifier\)):[1976Natur.260..500F](https://ui.adsabs.harvard.edu/abs/1976Natur.260..500F). [doi](/wiki/Doi_\(identifier\)):[10.1038/260500a0](https://doi.org/10.1038%2F260500a0). [PMID](/wiki/PMID_\(identifier\)) [1264203](//pubmed.ncbi.nlm.nih.gov/1264203). [S2CID](/wiki/S2CID_\(identifier\)) [4289674](https://api.semanticscholar.org/CorpusID:4289674).
+  15. **^** Fiers W, Contreras R, Haegemann G, Rogiers R, Van de Voorde A, Van Heuverswyn H, Van Herreweghe J, Volckaert G, Ysebaert M (May 1978). "Complete nucleotide sequence of SV40 DNA". _Nature_. **273** (5658): 113–20. [Bibcode](/wiki/Bibcode_\(identifier\)):[1978Natur.273..113F](https://ui.adsabs.harvard.edu/abs/1978Natur.273..113F). [doi](/wiki/Doi_\(identifier\)):[10.1038/273113a0](https://doi.org/10.1038%2F273113a0). [PMID](/wiki/PMID_\(identifier\)) [205802](//pubmed.ncbi.nlm.nih.gov/205802). [S2CID](/wiki/S2CID_\(identifier\)) [1634424](https://api.semanticscholar.org/CorpusID:1634424).
+  16. **^** Tamarin RH (2004). _Principles of genetics_ (7 ed.). London: McGraw Hill. [ISBN](/wiki/ISBN_\(identifier\)) [978-0-07-124320-9](/wiki/Special:BookSources/978-0-07-124320-9).
+  17. **^** Sanger F (1980). ["Nobel lecture: Determination of nucleotide sequences in DNA"](http://nobelprize.org/nobel_prizes/chemistry/laureates/1980/sanger-lecture.pdf) (PDF). Nobelprize.org. Retrieved 2010-10-18.
+  18. ^ _**a**_ _**b**_ Sanger F, Air GM, Barrell BG, Brown NL, Coulson AR, Fiddes CA, Hutchison CA, Slocombe PM, Smith M (February 1977). "Nucleotide sequence of bacteriophage phi X174 DNA". _Nature_. **265** (5596): 687–95. [Bibcode](/wiki/Bibcode_\(identifier\)):[1977Natur.265..687S](https://ui.adsabs.harvard.edu/abs/1977Natur.265..687S). [doi](/wiki/Doi_\(identifier\)):[10.1038/265687a0](https://doi.org/10.1038%2F265687a0). [PMID](/wiki/PMID_\(identifier\)) [870828](//pubmed.ncbi.nlm.nih.gov/870828). [S2CID](/wiki/S2CID_\(identifier\)) [4206886](https://api.semanticscholar.org/CorpusID:4206886).
+  19. **^** Kaiser O, Bartels D, Bekel T, Goesmann A, Kespohl S, Pühler A, Meyer F (December 2003). "Whole genome shotgun sequencing guided by bioinformatics pipelines--an optimized approach for an established technique". _Journal of Biotechnology_. **106** (2–3): 121–33. [doi](/wiki/Doi_\(identifier\)):[10.1016/j.jbiotec.2003.08.008](https://doi.org/10.1016%2Fj.jbiotec.2003.08.008). [PMID](/wiki/PMID_\(identifier\)) [14651855](//pubmed.ncbi.nlm.nih.gov/14651855).
+  20. **^** Sanger F, Nicklen S, Coulson AR (December 1977). ["DNA sequencing with chain-terminating inhibitors"](//www.ncbi.nlm.nih.gov/pmc/articles/PMC431765). _Proceedings of the National Academy of Sciences of the United States of America_. **74** (12): 5463–7. [Bibcode](/wiki/Bibcode_\(identifier\)):[1977PNAS...74.5463S](https://ui.adsabs.harvard.edu/abs/1977PNAS...74.5463S). [doi](/wiki/Doi_\(identifier\)):[10.1073/pnas.74.12.5463](https://doi.org/10.1073%2Fpnas.74.12.5463). [PMC](/wiki/PMC_\(identifier\)) [431765](//www.ncbi.nlm.nih.gov/pmc/articles/PMC431765). [PMID](/wiki/PMID_\(identifier\)) [271968](//pubmed.ncbi.nlm.nih.gov/271968).
+  21. **^** Maxam AM, Gilbert W (February 1977). ["A new method for sequencing DNA"](//www.ncbi.nlm.nih.gov/pmc/articles/PMC392330). _Proceedings of the National Academy of Sciences of the United States of America_. **74** (2): 560–4. [Bibcode](/wiki/Bibcode_\(identifier\)):[1977PNAS...74..560M](https://ui.adsabs.harvard.edu/abs/1977PNAS...74..560M). [doi](/wiki/Doi_\(identifier\)):[10.1073/pnas.74.2.560](https://doi.org/10.1073%2Fpnas.74.2.560). [PMC](/wiki/PMC_\(identifier\)) [392330](//www.ncbi.nlm.nih.gov/pmc/articles/PMC392330). [PMID](/wiki/PMID_\(identifier\)) [265521](//pubmed.ncbi.nlm.nih.gov/265521).
+  22. ^ _**a**_ _**b**_ Darden L, James Tabery (2010). ["Molecular Biology"](http://plato.stanford.edu/archives/fall2010/entries/molecular-biology/). In Zalta EN (ed.). _The Stanford Encyclopedia of Philosophy_ (Fall 2010 ed.).
+  23. **^** Anderson S, Bankier AT, Barrell BG, de Bruijn MH, Coulson AR, Drouin J, et al. (April 1981). "Sequence and organization of the human mitochondrial genome". _Nature_. **290** (5806): 457–65. [Bibcode](/wiki/Bibcode_\(identifier\)):[1981Natur.290..457A](https://ui.adsabs.harvard.edu/abs/1981Natur.290..457A). [doi](/wiki/Doi_\(identifier\)):[10.1038/290457a0](https://doi.org/10.1038%2F290457a0). [PMID](/wiki/PMID_\(identifier\)) [7219534](//pubmed.ncbi.nlm.nih.gov/7219534). [S2CID](/wiki/S2CID_\(identifier\)) [4355527](https://api.semanticscholar.org/CorpusID:4355527).(subscription required)
+  24. **^** Shinozaki K, Ohme M, Tanaka M, Wakasugi T, Hayashida N, Matsubayashi T, et al. (September 1986). ["The complete nucleotide sequence of the tobacco chloroplast genome: its gene organization and expression"](//www.ncbi.nlm.nih.gov/pmc/articles/PMC1167080). _The EMBO Journal_. **5** (9): 2043–2049. [doi](/wiki/Doi_\(identifier\)):[10.1002/j.1460-2075.1986.tb04464.x](https://doi.org/10.1002%2Fj.1460-2075.1986.tb04464.x). [PMC](/wiki/PMC_\(identifier\)) [1167080](//www.ncbi.nlm.nih.gov/pmc/articles/PMC1167080). [PMID](/wiki/PMID_\(identifier\)) [16453699](//pubmed.ncbi.nlm.nih.gov/16453699).
+  25. **^** Ohyama K, Fukuzawa H, Kohchi T, Shirai H, Sano T, Sano S, et al. (1986). "Chloroplast gene organization deduced from complete sequence of liverwort Marchantia polymorpha chloroplast DNA". _Nature_. **322** (6079): 572–574. [Bibcode](/wiki/Bibcode_\(identifier\)):[1986Natur.322..572O](https://ui.adsabs.harvard.edu/abs/1986Natur.322..572O). [doi](/wiki/Doi_\(identifier\)):[10.1038/322572a0](https://doi.org/10.1038%2F322572a0). [S2CID](/wiki/S2CID_\(identifier\)) [4311952](https://api.semanticscholar.org/CorpusID:4311952).
+  26. **^** [Oliver SG](/wiki/Stephen_Oliver_\(scientist\)), van der Aart QJ, Agostoni-Carbone ML, Aigle M, Alberghina L, Alexandraki D, Antoine G, Anwar R, Ballesta JP, Benit P (May 1992). "The complete DNA sequence of yeast chromosome III". _Nature_. **357** (6373): 38–46. [Bibcode](/wiki/Bibcode_\(identifier\)):[1992Natur.357...38O](https://ui.adsabs.harvard.edu/abs/1992Natur.357...38O). [doi](/wiki/Doi_\(identifier\)):[10.1038/357038a0](https://doi.org/10.1038%2F357038a0). [PMID](/wiki/PMID_\(identifier\)) [1574125](//pubmed.ncbi.nlm.nih.gov/1574125). [S2CID](/wiki/S2CID_\(identifier\)) [4271784](https://api.semanticscholar.org/CorpusID:4271784).
+  27. **^** Fleischmann RD, Adams MD, White O, Clayton RA, Kirkness EF, Kerlavage AR, et al. (July 1995). "Whole-genome random sequencing and assembly of Haemophilus influenzae Rd". _Science_. **269** (5223): 496–512. [Bibcode](/wiki/Bibcode_\(identifier\)):[1995Sci...269..496F](https://ui.adsabs.harvard.edu/abs/1995Sci...269..496F). [doi](/wiki/Doi_\(identifier\)):[10.1126/science.7542800](https://doi.org/10.1126%2Fscience.7542800). [PMID](/wiki/PMID_\(identifier\)) [7542800](//pubmed.ncbi.nlm.nih.gov/7542800). [S2CID](/wiki/S2CID_\(identifier\)) [10423613](https://api.semanticscholar.org/CorpusID:10423613).
+  28. **^** Goffeau A, Barrell BG, Bussey H, Davis RW, Dujon B, Feldmann H, Galibert F, Hoheisel JD, Jacq C, Johnston M, Louis EJ, Mewes HW, Murakami Y, Philippsen P, Tettelin H, Oliver SG (October 1996). "Life with 6000 genes". _Science_. **274** (5287): 546, 563–7. [Bibcode](/wiki/Bibcode_\(identifier\)):[1996Sci...274..546G](https://ui.adsabs.harvard.edu/abs/1996Sci...274..546G). [doi](/wiki/Doi_\(identifier\)):[10.1126/science.274.5287.546](https://doi.org/10.1126%2Fscience.274.5287.546). [PMID](/wiki/PMID_\(identifier\)) [8849441](//pubmed.ncbi.nlm.nih.gov/8849441). [S2CID](/wiki/S2CID_\(identifier\)) [211123134](https://api.semanticscholar.org/CorpusID:211123134).(subscription required)
+  29. **^** ["Complete genomes: Viruses"](https://www.ncbi.nlm.nih.gov/genomes/GenomesGroup.cgi?taxid=10239). _NCBI_. 17 November 2011. Retrieved 2011-11-18.
+  30. **^** ["Genome Project Statistics"](https://www.ncbi.nlm.nih.gov/genomes/static/gpstat.html). _Entrez Genome Project_. 7 October 2011. Retrieved 2011-11-18.
+  31. **^** Zimmer C (29 December 2009). ["Scientists Start a Genomic Catalog of Earth's Abundant Microbes"](https://www.nytimes.com/2009/12/29/science/29microbes.html). _The New York Times_. [ISSN](/wiki/ISSN_\(identifier\)) [0362-4331](//www.worldcat.org/issn/0362-4331). Retrieved 2012-12-21.
+  32. **^** Wu D, Hugenholtz P, Mavromatis K, Pukall R, Dalin E, Ivanova NN, et al. (December 2009). ["A phylogeny-driven genomic encyclopaedia of Bacteria and Archaea"](//www.ncbi.nlm.nih.gov/pmc/articles/PMC3073058). _Nature_. **462** (7276): 1056–60. [Bibcode](/wiki/Bibcode_\(identifier\)):[2009Natur.462.1056W](https://ui.adsabs.harvard.edu/abs/2009Natur.462.1056W). [doi](/wiki/Doi_\(identifier\)):[10.1038/nature08656](https://doi.org/10.1038%2Fnature08656). [PMC](/wiki/PMC_\(identifier\)) [3073058](//www.ncbi.nlm.nih.gov/pmc/articles/PMC3073058). [PMID](/wiki/PMID_\(identifier\)) [20033048](//pubmed.ncbi.nlm.nih.gov/20033048).
+  33. **^** ["Human gene number slashed"](http://news.bbc.co.uk/2/hi/science/nature/3760766.stm). _BBC_. 20 October 2004. Retrieved 2012-12-21.
+  34. **^** Yue GH, Lo LC, Zhu ZY, Lin G, Feng F (April 2006). "The complete nucleotide sequence of the mitochondrial genome of Tetraodon nigroviridis". _DNA Sequence_. **17** (2): 115–21. [doi](/wiki/Doi_\(identifier\)):[10.1080/10425170600700378](https://doi.org/10.1080%2F10425170600700378). [PMID](/wiki/PMID_\(identifier\)) [17076253](//pubmed.ncbi.nlm.nih.gov/17076253). [S2CID](/wiki/S2CID_\(identifier\)) [21797344](https://api.semanticscholar.org/CorpusID:21797344).
+  35. **^** [National Human Genome Research Institute](/wiki/National_Human_Genome_Research_Institute) (14 July 2004). ["Dog Genome Assembled: Canine Genome Now Available to Research Community Worldwide"](http://www.genome.gov/12511476). _Genome.gov_. Retrieved 2012-01-20.
+  36. ^ _**a**_ _**b**_ McElheny V (2010). _[Drawing the map of life : inside the Human Genome Project_](https://archive.org/details/drawingmapoflife0000mcel). New York NY: Basic Books. [ISBN](/wiki/ISBN_\(identifier\)) [978-0-465-04333-0](/wiki/Special:BookSources/978-0-465-04333-0).
+  37. **^** Abecasis GR, Auton A, Brooks LD, DePristo MA, Durbin RM, Handsaker RE, Kang HM, Marth GT, McVean GA (November 2012). ["An integrated map of genetic variation from 1,092 human genomes"](//www.ncbi.nlm.nih.gov/pmc/articles/PMC3498066). _Nature_. **491** (7422): 56–65. [Bibcode](/wiki/Bibcode_\(identifier\)):[2012Natur.491...56T](https://ui.adsabs.harvard.edu/abs/2012Natur.491...56T). [doi](/wiki/Doi_\(identifier\)):[10.1038/nature11632](https://doi.org/10.1038%2Fnature11632). [PMC](/wiki/PMC_\(identifier\)) [3498066](//www.ncbi.nlm.nih.gov/pmc/articles/PMC3498066). [PMID](/wiki/PMID_\(identifier\)) [23128226](//pubmed.ncbi.nlm.nih.gov/23128226).
+  38. **^** Nielsen R (October 2010). ["Genomics: In search of rare human variants"](https://doi.org/10.1038%2F4671050a). _Nature_. **467** (7319): 1050–1. [Bibcode](/wiki/Bibcode_\(identifier\)):[2010Natur.467.1050N](https://ui.adsabs.harvard.edu/abs/2010Natur.467.1050N). [doi](/wiki/Doi_\(identifier\)):[10.1038/4671050a](https://doi.org/10.1038%2F4671050a). [PMID](/wiki/PMID_\(identifier\)) [20981085](//pubmed.ncbi.nlm.nih.gov/20981085).
+  39. ^ _**a**_ _**b**_ Barnes B, Dupré J (2008). _Genomes and what to make of them_. Chicago: University of Chicago Press. [ISBN](/wiki/ISBN_\(identifier\)) [978-0-226-17295-8](/wiki/Special:BookSources/978-0-226-17295-8).
+  40. **^** Eisen JA (July 2012). ["Badomics words and the power and peril of the ome-meme"](//www.ncbi.nlm.nih.gov/pmc/articles/PMC3617454). _GigaScience_. **1** (1): 6. [doi](/wiki/Doi_\(identifier\)):[10.1186/2047-217X-1-6](https://doi.org/10.1186%2F2047-217X-1-6). [PMC](/wiki/PMC_\(identifier\)) [3617454](//www.ncbi.nlm.nih.gov/pmc/articles/PMC3617454). [PMID](/wiki/PMID_\(identifier\)) [23587201](//pubmed.ncbi.nlm.nih.gov/23587201).
+  41. **^** Hotz RL (13 August 2012). ["Here"s an Omical Tale: Scientists Discover Spreading Suffix"](https://www.wsj.com/articles/SB10000872396390444840104577551433143153716). _Wall Street Journal_. [ISSN](/wiki/ISSN_\(identifier\)) [0099-9660](//www.worldcat.org/issn/0099-9660). Retrieved 2013-01-04.
+  42. **^** Scudellari M (1 October 2011). ["Data Deluge"](http://www.the-scientist.com/?articles.view/articleNo/31212/title/Data-Deluge/). _The Scientist_. Retrieved 2013-01-04.
+  43. **^** Chaston J, Douglas AE (August 2012). ["Making the most of "omics" for symbiosis research"](//www.ncbi.nlm.nih.gov/pmc/articles/PMC3491573). _The Biological Bulletin_. **223** (1): 21–9. [doi](/wiki/Doi_\(identifier\)):[10.1086/BBLv223n1p21](https://doi.org/10.1086%2FBBLv223n1p21). [PMC](/wiki/PMC_\(identifier\)) [3491573](//www.ncbi.nlm.nih.gov/pmc/articles/PMC3491573). [PMID](/wiki/PMID_\(identifier\)) [22983030](//pubmed.ncbi.nlm.nih.gov/22983030).
+  44. **^** McCutcheon JP, von Dohlen CD (August 2011). ["An interdependent metabolic patchwork in the nested symbiosis of mealybugs"](//www.ncbi.nlm.nih.gov/pmc/articles/PMC3169327). _Current Biology_. **21** (16): 1366–72. [doi](/wiki/Doi_\(identifier\)):[10.1016/j.cub.2011.06.051](https://doi.org/10.1016%2Fj.cub.2011.06.051). [PMC](/wiki/PMC_\(identifier\)) [3169327](//www.ncbi.nlm.nih.gov/pmc/articles/PMC3169327). [PMID](/wiki/PMID_\(identifier\)) [21835622](//pubmed.ncbi.nlm.nih.gov/21835622).
+  45. ^ _**a**_ _**b**_ Baker M (14 September 2012). ["Benchtop sequencers ship off"](http://blogs.nature.com/news/2012/09/benchtop-sequencers-ship-off.html) (Blog). _Nature News Blog_. Retrieved 2012-12-22.
+  46. **^** Quail MA, Smith M, Coupland P, Otto TD, Harris SR, Connor TR, Bertoni A, Swerdlow HP, Gu Y (July 2012). ["A tale of three next generation sequencing platforms: comparison of Ion Torrent, Pacific Biosciences and Illumina MiSeq sequencers"](//www.ncbi.nlm.nih.gov/pmc/articles/PMC3431227). _BMC Genomics_. **13**: 341. [doi](/wiki/Doi_\(identifier\)):[10.1186/1471-2164-13-341](https://doi.org/10.1186%2F1471-2164-13-341). [PMC](/wiki/PMC_\(identifier\)) [3431227](//www.ncbi.nlm.nih.gov/pmc/articles/PMC3431227). [PMID](/wiki/PMID_\(identifier\)) [22827831](//pubmed.ncbi.nlm.nih.gov/22827831).
+  47. ^ _**a**_ _**b**_ Staden R (June 1979). ["A strategy of DNA sequencing employing computer programs"](//www.ncbi.nlm.nih.gov/pmc/articles/PMC327874). _Nucleic Acids Research_. **6** (7): 2601–10. [doi](/wiki/Doi_\(identifier\)):[10.1093/nar/6.7.2601](https://doi.org/10.1093%2Fnar%2F6.7.2601). [PMC](/wiki/PMC_\(identifier\)) [327874](//www.ncbi.nlm.nih.gov/pmc/articles/PMC327874). [PMID](/wiki/PMID_\(identifier\)) [461197](//pubmed.ncbi.nlm.nih.gov/461197).
+  48. **^** Anderson S (July 1981). ["Shotgun DNA sequencing using cloned DNase I-generated fragments"](//www.ncbi.nlm.nih.gov/pmc/articles/PMC327328). _Nucleic Acids Research_. **9** (13): 3015–27. [doi](/wiki/Doi_\(identifier\)):[10.1093/nar/9.13.3015](https://doi.org/10.1093%2Fnar%2F9.13.3015). [PMC](/wiki/PMC_\(identifier\)) [327328](//www.ncbi.nlm.nih.gov/pmc/articles/PMC327328). [PMID](/wiki/PMID_\(identifier\)) [6269069](//pubmed.ncbi.nlm.nih.gov/6269069).
+  49. ^ _**a**_ _**b**_ _**c**_ Pop M (July 2009). ["Genome assembly reborn: recent computational challenges"](//www.ncbi.nlm.nih.gov/pmc/articles/PMC2691937). _Briefings in Bioinformatics_. **10** (4): 354–66. [doi](/wiki/Doi_\(identifier\)):[10.1093/bib/bbp026](https://doi.org/10.1093%2Fbib%2Fbbp026). [PMC](/wiki/PMC_\(identifier\)) [2691937](//www.ncbi.nlm.nih.gov/pmc/articles/PMC2691937). [PMID](/wiki/PMID_\(identifier\)) [19482960](//pubmed.ncbi.nlm.nih.gov/19482960).
+  50. **^** Sanger F, Coulson AR (May 1975). "A rapid method for determining sequences in DNA by primed synthesis with DNA polymerase". _Journal of Molecular Biology_. **94** (3): 441–8. [doi](/wiki/Doi_\(identifier\)):[10.1016/0022-2836(75)90213-2](https://doi.org/10.1016%2F0022-2836%2875%2990213-2). [PMID](/wiki/PMID_\(identifier\)) [1100841](//pubmed.ncbi.nlm.nih.gov/1100841).
+  51. **^** Mavromatis K, Land ML, Brettin TS, Quest DJ, Copeland A, Clum A, et al. (2012). Liu Z (ed.). ["The fast changing landscape of sequencing technologies and their impact on microbial genome assemblies and annotation"](//www.ncbi.nlm.nih.gov/pmc/articles/PMC3520994). _PLOS ONE_. **7** (12): e48837. [Bibcode](/wiki/Bibcode_\(identifier\)):[2012PLoSO...748837M](https://ui.adsabs.harvard.edu/abs/2012PLoSO...748837M). [doi](/wiki/Doi_\(identifier\)):[10.1371/journal.pone.0048837](https://doi.org/10.1371%2Fjournal.pone.0048837). [PMC](/wiki/PMC_\(identifier\)) [3520994](//www.ncbi.nlm.nih.gov/pmc/articles/PMC3520994). [PMID](/wiki/PMID_\(identifier\)) [23251337](//pubmed.ncbi.nlm.nih.gov/23251337).
+  52. **^** Illumina, Inc. (28 February 2012). _[An Introduction to Next-Generation Sequencing Technology_](http://www.illumina.com/Documents/products/Illumina_Sequencing_Introduction.pdf) (PDF). San Diego, California, USA: Illumina, Inc. p. 12. Retrieved 2012-12-28.
+  53. **^** Hall N (May 2007). ["Advanced sequencing technologies and their wider impact in microbiology"](https://doi.org/10.1242%2Fjeb.001370). _The Journal of Experimental Biology_. **210** (Pt 9): 1518–25. [doi](/wiki/Doi_\(identifier\)):[10.1242/jeb.001370](https://doi.org/10.1242%2Fjeb.001370). [PMID](/wiki/PMID_\(identifier\)) [17449817](//pubmed.ncbi.nlm.nih.gov/17449817).
+  54. **^** Church GM (January 2006). "Genomes for all". _Scientific American_. **294** (1): 46–54. [Bibcode](/wiki/Bibcode_\(identifier\)):[2006SciAm.294a..46C](https://ui.adsabs.harvard.edu/abs/2006SciAm.294a..46C). [doi](/wiki/Doi_\(identifier\)):[10.1038/scientificamerican0106-46](https://doi.org/10.1038%2Fscientificamerican0106-46). [PMID](/wiki/PMID_\(identifier\)) [16468433](//pubmed.ncbi.nlm.nih.gov/16468433).
+  55. **^** ten Bosch JR, Grody WW (November 2008). ["Keeping up with the next generation: massively parallel sequencing in clinical diagnostics"](//www.ncbi.nlm.nih.gov/pmc/articles/PMC2570630). _The Journal of Molecular Diagnostics_. **10** (6): 484–92. [doi](/wiki/Doi_\(identifier\)):[10.2353/jmoldx.2008.080027](https://doi.org/10.2353%2Fjmoldx.2008.080027). [PMC](/wiki/PMC_\(identifier\)) [2570630](//www.ncbi.nlm.nih.gov/pmc/articles/PMC2570630). [PMID](/wiki/PMID_\(identifier\)) [18832462](//pubmed.ncbi.nlm.nih.gov/18832462).
+  56. **^** Tucker T, Marra M, Friedman JM (August 2009). ["Massively parallel sequencing: the next big thing in genetic medicine"](//www.ncbi.nlm.nih.gov/pmc/articles/PMC2725244). _American Journal of Human Genetics_. **85** (2): 142–54. [doi](/wiki/Doi_\(identifier\)):[10.1016/j.ajhg.2009.06.022](https://doi.org/10.1016%2Fj.ajhg.2009.06.022). [PMC](/wiki/PMC_\(identifier\)) [2725244](//www.ncbi.nlm.nih.gov/pmc/articles/PMC2725244). [PMID](/wiki/PMID_\(identifier\)) [19679224](//pubmed.ncbi.nlm.nih.gov/19679224).
+  57. **^** Kawashima EH, Farinelli L, Mayer P (12 May 2005). ["Method of nucleic acid amplification"](http://www.google.com/patents/US20050100900). Retrieved 2012-12-22.
+  58. **^** Mardis ER (2008). ["Next-generation DNA sequencing methods"](https://web.archive.org/web/20130518193940/http://www.lcg.unam.mx/frontiers/files/frontiers/annurev.genom.9.081307.164359.pdf) (PDF). _Annual Review of Genomics and Human Genetics_. **9**: 387–402. [doi](/wiki/Doi_\(identifier\)):[10.1146/annurev.genom.9.081307.164359](https://doi.org/10.1146%2Fannurev.genom.9.081307.164359). [PMID](/wiki/PMID_\(identifier\)) [18576944](//pubmed.ncbi.nlm.nih.gov/18576944). Archived from [the original](http://www.lcg.unam.mx/frontiers/files/frontiers/annurev.genom.9.081307.164359.pdf) (PDF) on 2013-05-18. Retrieved 2013-01-04.
+  59. **^** Davies K (2011). ["Powering Preventative Medicine"](http://www.bio-itworld.com/issues/2011/sept-oct/powering-preventative-medicine.html). _Bio-IT World_ (September–October).
+  60. **^** <https://www.pacb.com/>
+  61. **^** ["Oxford Nanopore Technologies"](https://nanoporetech.com/).
+  62. **^** Chain PS, Grafham DV, Fulton RS, Fitzgerald MG, Hostetler J, Muzny D, et al. (October 2009). ["Genomics. Genome project standards in a new era of sequencing"](//www.ncbi.nlm.nih.gov/pmc/articles/PMC3854948). _Science_. **326** (5950): 236–7. [Bibcode](/wiki/Bibcode_\(identifier\)):[2009Sci...326..236C](https://ui.adsabs.harvard.edu/abs/2009Sci...326..236C). [doi](/wiki/Doi_\(identifier\)):[10.1126/science.1180614](https://doi.org/10.1126%2Fscience.1180614). [PMC](/wiki/PMC_\(identifier\)) [3854948](//www.ncbi.nlm.nih.gov/pmc/articles/PMC3854948). [PMID](/wiki/PMID_\(identifier\)) [19815760](//pubmed.ncbi.nlm.nih.gov/19815760).
+  63. **^** Stein L (July 2001). "Genome annotation: from sequence to biology". _Nature Reviews. Genetics_. **2** (7): 493–503. [doi](/wiki/Doi_\(identifier\)):[10.1038/35080529](https://doi.org/10.1038%2F35080529). [PMID](/wiki/PMID_\(identifier\)) [11433356](//pubmed.ncbi.nlm.nih.gov/11433356). [S2CID](/wiki/S2CID_\(identifier\)) [12044602](https://api.semanticscholar.org/CorpusID:12044602).
+  64. **^** Brent MR (January 2008). ["Steady progress and recent breakthroughs in the accuracy of automated genome annotation"](https://web.archive.org/web/20130529013309/http://www.genomics.arizona.edu/553/Readings/2012/Brent_2008.pdf) (PDF). _Nature Reviews. Genetics_. **9** (1): 62–73. [doi](/wiki/Doi_\(identifier\)):[10.1038/nrg2220](https://doi.org/10.1038%2Fnrg2220). [PMID](/wiki/PMID_\(identifier\)) [18087260](//pubmed.ncbi.nlm.nih.gov/18087260). [S2CID](/wiki/S2CID_\(identifier\)) [20412451](https://api.semanticscholar.org/CorpusID:20412451). Archived from [the original](http://www.genomics.arizona.edu/553/Readings/2012/Brent_2008.pdf) (PDF) on 2013-05-29. Retrieved 2013-01-04.
+  65. **^** Flicek P, Ahmed I, Amode MR, Barrell D, Beal K, Brent S, et al. (January 2013). ["Ensembl 2013"](//www.ncbi.nlm.nih.gov/pmc/articles/PMC3531136). _Nucleic Acids Research_. **41** (Database issue): D48–55. [doi](/wiki/Doi_\(identifier\)):[10.1093/nar/gks1236](https://doi.org/10.1093%2Fnar%2Fgks1236). [PMC](/wiki/PMC_\(identifier\)) [3531136](//www.ncbi.nlm.nih.gov/pmc/articles/PMC3531136). [PMID](/wiki/PMID_\(identifier\)) [23203987](//pubmed.ncbi.nlm.nih.gov/23203987).
+  66. **^** Keith JM (2008). Keith JM (ed.). _Bioinformatics_. Methods in Molecular Biology. **453**. pp. v–vi. [doi](/wiki/Doi_\(identifier\)):[10.1007/978-1-60327-429-6](https://doi.org/10.1007%2F978-1-60327-429-6). [ISBN](/wiki/ISBN_\(identifier\)) [978-1-60327-428-9](/wiki/Special:BookSources/978-1-60327-428-9). [PMID](/wiki/PMID_\(identifier\)) [18720577](//pubmed.ncbi.nlm.nih.gov/18720577).
+  67. **^** Marsden RL, Lewis TA, Orengo CA (March 2007). ["Towards a comprehensive structural coverage of completed genomes: a structural genomics viewpoint"](//www.ncbi.nlm.nih.gov/pmc/articles/PMC1829165). _BMC Bioinformatics_. **8**: 86. [doi](/wiki/Doi_\(identifier\)):[10.1186/1471-2105-8-86](https://doi.org/10.1186%2F1471-2105-8-86). [PMC](/wiki/PMC_\(identifier\)) [1829165](//www.ncbi.nlm.nih.gov/pmc/articles/PMC1829165). [PMID](/wiki/PMID_\(identifier\)) [17349043](//pubmed.ncbi.nlm.nih.gov/17349043).
+  68. **^** Brenner SE, Levitt M (January 2000). ["Expectations from structural genomics"](//www.ncbi.nlm.nih.gov/pmc/articles/PMC2144435). _Protein Science_. **9** (1): 197–200. [doi](/wiki/Doi_\(identifier\)):[10.1110/ps.9.1.197](https://doi.org/10.1110%2Fps.9.1.197). [PMC](/wiki/PMC_\(identifier\)) [2144435](//www.ncbi.nlm.nih.gov/pmc/articles/PMC2144435). [PMID](/wiki/PMID_\(identifier\)) [10739263](//pubmed.ncbi.nlm.nih.gov/10739263).
+  69. **^** Brenner SE (October 2001). ["A tour of structural genomics"](http://compbio.berkeley.edu/people/brenner/pubs/brenner-2001-nrg-strgen.pdf) (PDF). _Nature Reviews. Genetics_. **2** (10): 801–9. [doi](/wiki/Doi_\(identifier\)):[10.1038/35093574](https://doi.org/10.1038%2F35093574). [PMID](/wiki/PMID_\(identifier\)) [11584296](//pubmed.ncbi.nlm.nih.gov/11584296). [S2CID](/wiki/S2CID_\(identifier\)) [5656447](https://api.semanticscholar.org/CorpusID:5656447).
+  70. ^ _**a**_ _**b**_ Francis RC (2011). _Epigenetics : the ultimate mystery of inheritance_. New York: WW Norton. [ISBN](/wiki/ISBN_\(identifier\)) [978-0-393-07005-7](/wiki/Special:BookSources/978-0-393-07005-7).
+  71. **^** Laird PW (March 2010). "Principles and challenges of genomewide DNA methylation analysis". _Nature Reviews. Genetics_. **11** (3): 191–203. [doi](/wiki/Doi_\(identifier\)):[10.1038/nrg2732](https://doi.org/10.1038%2Fnrg2732). [PMID](/wiki/PMID_\(identifier\)) [20125086](//pubmed.ncbi.nlm.nih.gov/20125086). [S2CID](/wiki/S2CID_\(identifier\)) [6780101](https://api.semanticscholar.org/CorpusID:6780101).
+  72. **^** Hugenholtz P, Goebel BM, Pace NR (September 1998). ["Impact of culture-independent studies on the emerging phylogenetic view of bacterial diversity"](//www.ncbi.nlm.nih.gov/pmc/articles/PMC107498). _Journal of Bacteriology_. **180** (18): 4765–74. [doi](/wiki/Doi_\(identifier\)):[10.1128/JB.180.18.4765-4774.1998](https://doi.org/10.1128%2FJB.180.18.4765-4774.1998). [PMC](/wiki/PMC_\(identifier\)) [107498](//www.ncbi.nlm.nih.gov/pmc/articles/PMC107498). [PMID](/wiki/PMID_\(identifier\)) [9733676](//pubmed.ncbi.nlm.nih.gov/9733676).
+  73. **^** Eisen JA (March 2007). ["Environmental shotgun sequencing: its potential and challenges for studying the hidden world of microbes"](//www.ncbi.nlm.nih.gov/pmc/articles/PMC1821061). _PLOS Biology_. **5** (3): e82. [doi](/wiki/Doi_\(identifier\)):[10.1371/journal.pbio.0050082](https://doi.org/10.1371%2Fjournal.pbio.0050082). [PMC](/wiki/PMC_\(identifier\)) [1821061](//www.ncbi.nlm.nih.gov/pmc/articles/PMC1821061). [PMID](/wiki/PMID_\(identifier\)) [17355177](//pubmed.ncbi.nlm.nih.gov/17355177).
+  74. **^** Marco D, ed. (2010). _Metagenomics: Theory, Methods and Applications_. Caister Academic Press. [ISBN](/wiki/ISBN_\(identifier\)) [978-1-904455-54-7](/wiki/Special:BookSources/978-1-904455-54-7).
+  75. **^** Marco D, ed. (2011). _Metagenomics: Current Innovations and Future Trends_. [Caister Academic Press](/wiki/Caister_Academic_Press). [ISBN](/wiki/ISBN_\(identifier\)) [978-1-904455-87-5](/wiki/Special:BookSources/978-1-904455-87-5).
+  76. **^** Canchaya C, Proux C, Fournous G, Bruttin A, Brüssow H (June 2003). ["Prophage genomics"](//www.ncbi.nlm.nih.gov/pmc/articles/PMC156470). _Microbiology and Molecular Biology Reviews_. **67** (2): 238–76, table of contents. [doi](/wiki/Doi_\(identifier\)):[10.1128/MMBR.67.2.238-276.2003](https://doi.org/10.1128%2FMMBR.67.2.238-276.2003). [PMC](/wiki/PMC_\(identifier\)) [156470](//www.ncbi.nlm.nih.gov/pmc/articles/PMC156470). [PMID](/wiki/PMID_\(identifier\)) [12794192](//pubmed.ncbi.nlm.nih.gov/12794192).
+  77. **^** McGrath S, van Sinderen D, eds. (2007). _[Bacteriophage: Genetics and Molecular Biology_](http://www.horizonpress.com/phage) (1st ed.). Caister Academic Press. [ISBN](/wiki/ISBN_\(identifier\)) [978-1-904455-14-1](/wiki/Special:BookSources/978-1-904455-14-1).
+  78. **^** Fouts DE (November 2006). ["Phage_Finder: automated identification and classification of prophage regions in complete bacterial genome sequences"](//www.ncbi.nlm.nih.gov/pmc/articles/PMC1635311). _Nucleic Acids Research_. **34** (20): 5839–51. [doi](/wiki/Doi_\(identifier\)):[10.1093/nar/gkl732](https://doi.org/10.1093%2Fnar%2Fgkl732). [PMC](/wiki/PMC_\(identifier\)) [1635311](//www.ncbi.nlm.nih.gov/pmc/articles/PMC1635311). [PMID](/wiki/PMID_\(identifier\)) [17062630](//pubmed.ncbi.nlm.nih.gov/17062630).
+  79. **^** Herrero A, Flores E, eds. (2008). _[The Cyanobacteria: Molecular Biology, Genomics and Evolution_](http://www.horizonpress.com/cyan) (1st ed.). Caister Academic Press. [ISBN](/wiki/ISBN_\(identifier\)) [978-1-904455-15-8](/wiki/Special:BookSources/978-1-904455-15-8).
+  80. **^** Hudson KL (September 2011). "Genomics, health care, and society". _The New England Journal of Medicine_. **365** (11): 1033–41. [doi](/wiki/Doi_\(identifier\)):[10.1056/NEJMra1010517](https://doi.org/10.1056%2FNEJMra1010517). [PMID](/wiki/PMID_\(identifier\)) [21916641](//pubmed.ncbi.nlm.nih.gov/21916641).
+  81. **^** O'Donnell CJ, Nabel EG (December 2011). "Genomics of cardiovascular disease". _The New England Journal of Medicine_. **365** (22): 2098–109. [doi](/wiki/Doi_\(identifier\)):[10.1056/NEJMra1105239](https://doi.org/10.1056%2FNEJMra1105239). [PMID](/wiki/PMID_\(identifier\)) [22129254](//pubmed.ncbi.nlm.nih.gov/22129254).
+  82. **^** Lu YF, Goldstein DB, Angrist M, Cavalleri G (July 2014). ["Personalized medicine and human genetic diversity"](//www.ncbi.nlm.nih.gov/pmc/articles/PMC4143101). _Cold Spring Harbor Perspectives in Medicine_. **4** (9): a008581. [doi](/wiki/Doi_\(identifier\)):[10.1101/cshperspect.a008581](https://doi.org/10.1101%2Fcshperspect.a008581). [PMC](/wiki/PMC_\(identifier\)) [4143101](//www.ncbi.nlm.nih.gov/pmc/articles/PMC4143101). [PMID](/wiki/PMID_\(identifier\)) [25059740](//pubmed.ncbi.nlm.nih.gov/25059740).
+  83. **^** Ashley, Euan A; Butte, Atul J; Wheeler, Matthew T; Chen, Rong; Klein, Teri E; Dewey, Frederick E; Dudley, Joel T; Ormond, Kelly E; Pavlovic, Aleksandra; Morgan, Alexander A; Pushkarev, Dmitry; Neff, Norma F; Hudgins, Louanne; Gong, Li; Hodges, Laura M; Berlin, Dorit S; Thorn, Caroline F; Sangkuhl, Katrin; Hebert, Joan M; Woon, Mark; Sagreiya, Hersh; Whaley, Ryan; Knowles, Joshua W; Chou, Michael F; Thakuria, Joseph V; Rosenbaum, Abraham M; Zaranek, Alexander Wait; Church, George M; Greely, Henry T; Quake, Stephen R; Altman, Russ B (May 2010). ["Clinical assessment incorporating a personal genome"](//www.ncbi.nlm.nih.gov/pmc/articles/PMC2937184). _The Lancet_. **375** (9725): 1525–1535. [doi](/wiki/Doi_\(identifier\)):[10.1016/S0140-6736(10)60452-7](https://doi.org/10.1016%2FS0140-6736%2810%2960452-7). [PMC](/wiki/PMC_\(identifier\)) [2937184](//www.ncbi.nlm.nih.gov/pmc/articles/PMC2937184). [PMID](/wiki/PMID_\(identifier\)) [20435227](//pubmed.ncbi.nlm.nih.gov/20435227).
+  84. **^** Dewey, Frederick E.; Chen, Rong; Cordero, Sergio P.; Ormond, Kelly E.; Caleshu, Colleen; Karczewski, Konrad J.; Whirl-Carrillo, Michelle; Wheeler, Matthew T.; Dudley, Joel T.; Byrnes, Jake K.; Cornejo, Omar E.; Knowles, Joshua W.; Woon, Mark; Sangkuhl, Katrin; Gong, Li; Thorn, Caroline F.; Hebert, Joan M.; Capriotti, Emidio; David, Sean P.; Pavlovic, Aleksandra; West, Anne; Thakuria, Joseph V.; Ball, Madeleine P.; Zaranek, Alexander W.; Rehm, Heidi L.; Church, George M.; West, John S.; Bustamante, Carlos D.; Snyder, Michael; Altman, Russ B.; Klein, Teri E.; Butte, Atul J.; Ashley, Euan A. (15 September 2011). ["Phased Whole-Genome Genetic Risk in a Family Quartet Using a Major Allele Reference Sequence"](//www.ncbi.nlm.nih.gov/pmc/articles/PMC3174201). _PLOS Genetics_. **7** (9): e1002280. [doi](/wiki/Doi_\(identifier\)):[10.1371/journal.pgen.1002280](https://doi.org/10.1371%2Fjournal.pgen.1002280). [PMC](/wiki/PMC_\(identifier\)) [3174201](//www.ncbi.nlm.nih.gov/pmc/articles/PMC3174201). [PMID](/wiki/PMID_\(identifier\)) [21935354](//pubmed.ncbi.nlm.nih.gov/21935354).
+  85. **^** Dewey, Frederick E.; Grove, Megan E.; Pan, Cuiping; Goldstein, Benjamin A.; Bernstein, Jonathan A.; Chaib, Hassan; Merker, Jason D.; Goldfeder, Rachel L.; Enns, Gregory M.; David, Sean P.; Pakdaman, Neda; Ormond, Kelly E.; Caleshu, Colleen; Kingham, Kerry; Klein, Teri E.; Whirl-Carrillo, Michelle; Sakamoto, Kenneth; Wheeler, Matthew T.; Butte, Atul J.; Ford, James M.; Boxer, Linda; Ioannidis, John P. A.; Yeung, Alan C.; Altman, Russ B.; Assimes, Themistocles L.; Snyder, Michael; Ashley, Euan A.; Quertermous, Thomas (12 March 2014). ["Clinical Interpretation and Implications of Whole-Genome Sequencing"](//www.ncbi.nlm.nih.gov/pmc/articles/PMC4119063). _JAMA_. **311** (10): 1035–45. [doi](/wiki/Doi_\(identifier\)):[10.1001/jama.2014.1717](https://doi.org/10.1001%2Fjama.2014.1717). [PMC](/wiki/PMC_\(identifier\)) [4119063](//www.ncbi.nlm.nih.gov/pmc/articles/PMC4119063). [PMID](/wiki/PMID_\(identifier\)) [24618965](//pubmed.ncbi.nlm.nih.gov/24618965).
+  86. **^** <https://www.statnews.com/2019/08/16/top-u-s-medical-centers-roll-out-dna-sequencing-clinics-for-healthy-and-often-wealthy-clients/>
+  87. **^** <https://www.darkdaily.com/two-boston-health-systems-enter-the-growing-direct-to-consumer-gene-sequencing-market-by-opening-preventative-genomics-clinics-but-can-patients-afford-the-service/>
+  88. **^** ["NIH-funded genome centers to accelerate precision medicine discoveries"](https://www.nih.gov/news-events/news-releases/nih-funded-genome-centers-accelerate-precision-medicine-discoveries). _National Institutes of Health: All of Us Research Program_. National Institutes of Health.
+  89. **^** Church GM, Regis E (2012). _Regenesis : how synthetic biology will reinvent nature and ourselves_. New York: Basic Books. [ISBN](/wiki/ISBN_\(identifier\)) [978-0-465-02175-8](/wiki/Special:BookSources/978-0-465-02175-8).
+  90. **^** Baker M (May 2011). ["Synthetic genomes: The next step for the synthetic genome"](https://doi.org/10.1038%2F473403a). _Nature_. **473** (7347): 403, 405–8. [Bibcode](/wiki/Bibcode_\(identifier\)):[2011Natur.473..403B](https://ui.adsabs.harvard.edu/abs/2011Natur.473..403B). [doi](/wiki/Doi_\(identifier\)):[10.1038/473403a](https://doi.org/10.1038%2F473403a). [PMID](/wiki/PMID_\(identifier\)) [21593873](//pubmed.ncbi.nlm.nih.gov/21593873). [S2CID](/wiki/S2CID_\(identifier\)) [205064528](https://api.semanticscholar.org/CorpusID:205064528).
+  91. **^** Luikart, G.; England, P. R.; Tallmon, D.; Jordan S.; Taberlet P. (2003). "The Power and Promise of Population Genomics: From Genotyping to Genome Typing". _Nature Reviews_ (4): 981-994
+  92. **^** Frankham R (1 September 2010). "Challenges and opportunities of genetic approaches to biological conservation". _Biological Conservation_. **143** (9): 1922–1923. [doi](/wiki/Doi_\(identifier\)):[10.1016/j.biocon.2010.05.011](https://doi.org/10.1016%2Fj.biocon.2010.05.011).
+  93. **^** Allendorf FW, Hohenlohe PA, Luikart G (October 2010). "Genomics and the future of conservation genetics". _Nature Reviews. Genetics_. **11** (10): 697–709. [doi](/wiki/Doi_\(identifier\)):[10.1038/nrg2844](https://doi.org/10.1038%2Fnrg2844). [PMID](/wiki/PMID_\(identifier\)) [20847747](//pubmed.ncbi.nlm.nih.gov/20847747). [S2CID](/wiki/S2CID_\(identifier\)) [10811958](https://api.semanticscholar.org/CorpusID:10811958).
+
+## Further reading[[edit](/w/index.php?title=Genomics&action=edit&section=30)]
+
+  * Lesk AM (2017). _Introduction to Genomics_ (3rd ed.). New York: Oxford University Press. p. 544\. [ISBN](/wiki/ISBN_\(identifier\)) [978-0-19-107085-3](/wiki/Special:BookSources/978-0-19-107085-3). [ASIN](/wiki/Amazon_Standard_Identification_Number) [0198754833](https://www.amazon.co.uk/dp/0198754833).
+  * Stunnenberg HG, Hubner NC (2014). ["Genomics meets proteomics: identifying the culprits in disease"](//www.ncbi.nlm.nih.gov/pmc/articles/PMC4021166). _Human Genetics_. **133** (6): 689–700. [doi](/wiki/Doi_\(identifier\)):[10.1007/s00439-013-1376-2](https://doi.org/10.1007%2Fs00439-013-1376-2). [PMC](/wiki/PMC_\(identifier\)) [4021166](//www.ncbi.nlm.nih.gov/pmc/articles/PMC4021166). [PMID](/wiki/PMID_\(identifier\)) [24135908](//pubmed.ncbi.nlm.nih.gov/24135908).
+  * Shibata T (2012). ["Cancer genomics and pathology: all together now"](https://doi.org/10.1111%2Fj.1440-1827.2012.02855.x). _Pathology International_. **62** (10): 647–59. [doi](/wiki/Doi_\(identifier\)):[10.1111/j.1440-1827.2012.02855.x](https://doi.org/10.1111%2Fj.1440-1827.2012.02855.x). [PMID](/wiki/PMID_\(identifier\)) [23005591](//pubmed.ncbi.nlm.nih.gov/23005591). [S2CID](/wiki/S2CID_\(identifier\)) [27886018](https://api.semanticscholar.org/CorpusID:27886018).
+  * Roychowdhury S, Chinnaiyan AM (2016). ["Translating cancer genomes and transcriptomes for precision oncology"](//www.ncbi.nlm.nih.gov/pmc/articles/PMC4713245). _CA: A Cancer Journal for Clinicians_. **66** (1): 75–88. [doi](/wiki/Doi_\(identifier\)):[10.3322/caac.21329](https://doi.org/10.3322%2Fcaac.21329). [PMC](/wiki/PMC_\(identifier\)) [4713245](//www.ncbi.nlm.nih.gov/pmc/articles/PMC4713245). [PMID](/wiki/PMID_\(identifier\)) [26528881](//pubmed.ncbi.nlm.nih.gov/26528881).
+  * Vadim N G, Zhang Y (2013). "Chapter 16 Comparative Genomics Analysis of the Metallomes". In Banci L (ed.). _Metallomics and the Cell_. Metal Ions in Life Sciences. **12**. Springer. [doi](/wiki/Doi_\(identifier\)):[10.1007/978-94-007-5561-10_16](https://doi.org/10.1007%2F978-94-007-5561-10_16) (inactive 31 May 2021). [ISBN](/wiki/ISBN_\(identifier\)) [978-94-007-5560-4](/wiki/Special:BookSources/978-94-007-5560-4).CS1 maint: DOI inactive as of May 2021 ([link](/wiki/Category:CS1_maint:_DOI_inactive_as_of_May_2021)) electronic-book [ISBN](/wiki/ISBN_\(identifier\)) [978-94-007-5561-1](/wiki/Special:BookSources/978-94-007-5561-1) [ISSN](/wiki/ISSN_\(identifier\)) [1559-0836](https://www.worldcat.org/search?fq=x0:jrnl&q=n2:1559-0836) electronic-[ISSN](/wiki/ISSN_\(identifier\)) [1868-0402](https://www.worldcat.org/search?fq=x0:jrnl&q=n2:1868-0402)
+
+## External links[[edit](/w/index.php?title=Genomics&action=edit&section=31)]
+
+  * [Annual Review of Genomics and Human Genetics](http://arjournals.annualreviews.org/loi/genom/)
+  * [BMC Genomics](http://www.biomedcentral.com/bmcgenomics/): A BMC journal on Genomics
+  * [Genomics journal](http://www.elsevier.com/wps/find/journaldescription.cws_home/622838/description#description)
+  * [Genomics.org](http://genomics.org): An openfree genomics portal.
+  * [NHGRI](http://www.genome.gov/): US government's genome institute
+  * [JCVI Comprehensive Microbial Resource](http://arquivo.pt/wayback/20160516145036/http://cmr.jcvi.org/)
+  * [KoreaGenome.org](https://www.webcitation.org/5hOBP0LmN?url=http://koreagenome.org/): The first Korean Genome published and the sequence is available freely.
+  * [GenomicsNetwork](https://web.archive.org/web/20171228195616/http://www.genomicsnetwork.ac.uk/): Looks at the development and use of the science and technologies of genomics.
+  * [Institute for Genome Sciences](https://web.archive.org/web/20091115214635/http://www.igs.umaryland.edu/research_topics.php): Genomics research.
+  * [MIT OpenCourseWare HST.512 Genomic Medicine](http://ocw.mit.edu/courses/health-sciences-and-technology/hst-512-genomic-medicine-spring-2004/) A free, self-study course in genomic medicine. Resources include audio lectures and selected lecture notes.
+  * [ENCODE threads explorer](http://www.nature.com/encode/#/threads/machine-learning-approaches-to-genomics) Machine learning approaches to genomics. [Nature (journal)](/wiki/Nature_\(journal\))
+  * [Global map of genomics laboratories](https://web.archive.org/web/20131005093407/https://mapsengine.google.com/map/viewer?mid=zeHBUH4JmjxQ.kB0PwL4lW7VM)
+  * [Genomics: Scitable by nature education](http://www.nature.com/scitable/ebooks/genomics-4)
+
+  * [Learn All About Genetics Online](http://www.thegeneboxacademy.com/)
+
+  * [v](/wiki/Template:Genomics)
+  * [t](/wiki/Template_talk:Genomics)
+  * [e](https://en.wikipedia.org/w/index.php?title=Template:Genomics&action=edit)
+
+[Omics](/wiki/Omics)
+
+Genomics
+
+  * [Cognitive genomics](/wiki/Cognitive_genomics)
+  * [Computational genomics](/wiki/Computational_genomics)
+  * [Comparative genomics](/wiki/Comparative_genomics)
+  * [Functional genomics](/wiki/Functional_genomics)
+  * [Genome project](/wiki/Genome_project)
+    * [Human Genome Project](/wiki/Human_Genome_Project)
+  * [Metagenomics](/wiki/Metagenomics)
+  * [Pangenomics](/wiki/Pangenomics)
+  * [Personal genomics](/wiki/Personal_genomics)
+  * [Population genomics](/wiki/Population_genomics)
+  * [Social genomics](/wiki/Social_genomics)
+  * [Structural genomics](/wiki/Structural_genomics)
+
+[Bioinformatics](/wiki/Bioinformatics)
+
+  * [Biochip](/wiki/Biochip)
+  * [Cheminformatics](/wiki/Cheminformatics)
+  * [Chemogenomics](/wiki/Chemogenomics)
+  * [Connectomics](/wiki/Connectomics)
+    * [Human Connectome Project](/wiki/Human_Connectome_Project)
+  * [Epigenomics](/wiki/Epigenomics)
+    * [Human Epigenome Project](/wiki/Human_Epigenome_Project)
+  * [Glycomics](/wiki/Glycomics)
+  * [Immunomics](/wiki/Immunomics)
+  * [Lipidomics](/wiki/Lipidomics)
+  * [Metabolomics](/wiki/Metabolomics)
+  * [Microbiomics](/wiki/Microbiome)
+  * [Nutrigenomics](/wiki/Nutrigenomics)
+  * [Paleopolyploidy](/wiki/Paleopolyploidy)
+  * [Pharmacogenetics](/wiki/Pharmacogenetics)
+  * [Pharmacogenomics](/wiki/Pharmacogenomics)
+  * [Systems biology](/wiki/Systems_biology)
+  * [Toxicogenomics](/wiki/Toxicogenomics)
+  * [Transcriptomics](/wiki/Transcriptomics)
+
+[Structural biology](/wiki/Structural_biology)
+
+  * [Proteomics](/wiki/Proteomics)
+    * [Human proteome project](/wiki/Human_proteome_project)
+  * [Call-map proteomics](/wiki/Call-map_proteomics)
+  * [Structure-based drug design](/wiki/Structure-based_drug_design)
+  * [Expression proteomics](/wiki/Expression_proteomics)
+
+Research tools
+
+  * [2-D electrophoresis](/wiki/2-D_electrophoresis)
+  * [Mass spectrometer](/wiki/Mass_spectrometer)
+  * [Electrospray ionization](/wiki/Electrospray_ionization)
+  * [Matrix-assisted laser desorption ionization](/wiki/Matrix-assisted_laser_desorption_ionization)
+  * [Matrix-assisted laser desorption ionization-time of flight mass spectrometer](/wiki/Matrix-assisted_laser_desorption_ionization-time_of_flight_mass_spectrometer)
+  * [Microfluidic-based tools](/wiki/Microfluidic-based_tools)
+  * [Isotope affinity tags](/wiki/Isotope_affinity_tags)
+  * [Chromosome conformation capture](/wiki/Chromosome_conformation_capture)
+
+Organizations
+
+  * [DNA Data Bank of Japan](/wiki/DNA_Data_Bank_of_Japan) (JP)
+  * [European Molecular Biology Laboratory](/wiki/European_Molecular_Biology_Laboratory) (EU)
+  * [National Institutes of Health](/wiki/National_Institutes_of_Health) (USA)
+  * [Wellcome Sanger Institute](/wiki/Wellcome_Sanger_Institute) (UK)
+
+  * ![List-Class article](//upload.wikimedia.org/wikipedia/en/thumb/d/db/Symbol_list_class.svg/16px-Symbol_list_class.svg.png) **[List](/wiki/List_of_omics_topics_in_biology) **
+  * ![Category](//upload.wikimedia.org/wikipedia/en/thumb/9/96/Symbol_category_class.svg/16px-Symbol_category_class.svg.png) **[Category](/wiki/Category:Omics)**
+
+  * [v](/wiki/Template:Genetics)
+  * [t](/wiki/Template_talk:Genetics)
+  * [e](https://en.wikipedia.org/w/index.php?title=Template:Genetics&action=edit)
+
+[Genetics](/wiki/Genetics)
+
+  * [Introduction](/wiki/Introduction_to_genetics)
+  * [Outline](/wiki/Outline_of_genetics)
+  * [History](/wiki/History_of_genetics)
+  * [Index](/wiki/Index_of_genetics_articles)
+  * [Glossary](/wiki/Glossary_of_genetics)
+
+Key components
+
+  * [Chromosome](/wiki/Chromosome)
+  * [DNA](/wiki/DNA)
+  * [RNA](/wiki/RNA)
+  * [Genome](/wiki/Genome)
+  * [Heredity](/wiki/Heredity)
+  * [Nucleotide](/wiki/Nucleotide)
+  * [Mutation](/wiki/Mutation)
+  * [Genetic variation](/wiki/Genetic_variation)
+
+Fields
+
+  * [Classical](/wiki/Classical_genetics)
+  * [Conservation](/wiki/Conservation_genetics)
+  * [Cytogenetics](/wiki/Cytogenetics)
+  * [Ecological](/wiki/Ecological_genetics)
+  * [Immunogenetics](/wiki/Immunogenetics)
+  * [Microbial](/wiki/Microbial_genetics)
+  * [Molecular](/wiki/Molecular_genetics)
+  * [Population](/wiki/Population_genetics)
+  * [Quantitative](/wiki/Quantitative_genetics)
+
+[Archaeogenetics](/wiki/Archaeogenetics) of
+
+  * [the Americas](/wiki/Genetic_history_of_indigenous_peoples_of_the_Americas)
+  * [the British Isles](/wiki/Genetic_history_of_the_British_Isles)
+  * [Europe](/wiki/Genetic_history_of_Europe)
+  * [Italy](/wiki/Genetic_history_of_Italy)
+  * [the Middle East](/wiki/Genetic_history_of_the_Middle_East)
+  * [South Asia](/wiki/Genetics_and_archaeogenetics_of_South_Asia)
+
+Related topics
+
+  * [Behavioural genetics](/wiki/Behavioural_genetics)
+  * [Epigenetics](/wiki/Epigenetics)
+  * [Geneticist](/wiki/Geneticist)
+  * [Genome editing](/wiki/Genome_editing)
+  * Genomics
+  * [Genetic code](/wiki/Genetic_code)
+  * [Genetic engineering](/wiki/Genetic_engineering)
+  * [Genetic diversity](/wiki/Genetic_diversity)
+  * [Genetic monitoring](/wiki/Genetic_monitoring)
+  * [Genetic genealogy](/wiki/Genetic_genealogy)
+  * [Heredity](/wiki/Heredity)
+  * [He Jiankui affair](/wiki/He_Jiankui_affair)
+  * [Medical genetics](/wiki/Medical_genetics)
+  * [Molecular evolution](/wiki/Molecular_evolution)
+  * [Plant genetics](/wiki/Plant_genetics)
+  * [Population genomics](/wiki/Population_genomics)
+  * [Reverse genetics](/wiki/Reverse_genetics)
+
+Lists
+
+  * [List of genetic codes](/wiki/List_of_genetic_codes)
+  * [List of genetics research organizations](/wiki/List_of_genetics_research_organizations)
+
+  * ![Category](//upload.wikimedia.org/wikipedia/en/thumb/9/96/Symbol_category_class.svg/16px-Symbol_category_class.svg.png) [Category](/wiki/Category:Genetics)
+  * ![Commons page](//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/12px-Commons-logo.svg.png) **[Commons](https://commons.wikimedia.org/wiki/Category:Genetics)**
+  * ![WikiProject](//upload.wikimedia.org/wikipedia/commons/thumb/3/37/People_icon.svg/16px-People_icon.svg.png) **[WikiProject](/wiki/Wikipedia:WikiProject_Molecular_Biology/Genetics)**
+
+  * [v](/wiki/Template:Branches_of_biology)
+  * [t](/wiki/Template_talk:Branches_of_biology)
+  * [e](https://en.wikipedia.org/w/index.php?title=Template:Branches_of_biology&action=edit)
+
+[Branches of biology](/wiki/Branches_of_biology)
+
+  * [Abiogenesis](/wiki/Abiogenesis)
+  * [Aerobiology](/wiki/Aerobiology)
+  * [Agrostology](/wiki/Agrostology)
+  * [Anatomy](/wiki/Anatomy)
+  * [Astrobiology](/wiki/Astrobiology)
+  * [Bacteriology](/wiki/Bacteriology)
+  * [Biochemistry](/wiki/Biochemistry)
+  * [Biogeography](/wiki/Biogeography)
+  * [Biogeology](/wiki/Biogeology)
+  * [Biohistory](/wiki/Biohistory)
+  * [Bioinformatics](/wiki/Bioinformatics)
+  * [Biological engineering](/wiki/Biological_engineering)
+  * [Biomechanics](/wiki/Biomechanics)
+  * [Biophysics](/wiki/Biophysics)
+  * [Biostatistics](/wiki/Biostatistics)
+  * [Biotechnology](/wiki/Biotechnology)
+  * [Botany](/wiki/Botany)
+  * [Cell biology](/wiki/Cell_biology)
+  * [Cellular microbiology](/wiki/Cellular_microbiology)
+  * [Chemical biology](/wiki/Chemical_biology)
+  * [Chronobiology](/wiki/Chronobiology)
+  * [Cognitive biology](/wiki/Cognitive_biology)
+  * [Computational biology](/wiki/Computational_biology)
+  * [Conservation biology](/wiki/Conservation_biology)
+  * [Cryobiology](/wiki/Cryobiology)
+  * [Cytogenetics](/wiki/Cytogenetics)
+  * [Dendrology](/wiki/Dendrology)
+  * [Developmental biology](/wiki/Developmental_biology)
+  * [Ecological genetics](/wiki/Ecological_genetics)
+  * [Ecology](/wiki/Ecology)
+  * [Embryology](/wiki/Embryology)
+  * [Epidemiology](/wiki/Epidemiology)
+  * [Epigenetics](/wiki/Epigenetics)
+  * [Evolutionary biology](/wiki/Evolutionary_biology)
+  * [Freshwater biology](/wiki/Freshwater_biology)
+  * [Genetics](/wiki/Genetics)
+  * Genomics
+  * [Geobiology](/wiki/Geobiology)
+  * [Gerontology](/wiki/Gerontology)
+  * [Herpetology](/wiki/Herpetology)
+  * [Histology](/wiki/Histology)
+  * [Human biology](/wiki/Human_biology)
+  * [Ichthyology](/wiki/Ichthyology)
+  * [Immunology](/wiki/Immunology)
+  * [Lipidology](/wiki/Lipidology)
+  * [Mammalogy](/wiki/Mammalogy)
+  * [Marine biology](/wiki/Marine_biology)
+  * [Mathematical biology](/wiki/Mathematical_and_theoretical_biology)
+  * [Microbiology](/wiki/Microbiology)
+  * [Molecular biology](/wiki/Molecular_biology)
+  * [Mycology](/wiki/Mycology)
+  * [Neontology](/wiki/Neontology)
+  * [Neuroscience](/wiki/Neuroscience)
+  * [Nutrition](/wiki/Nutrition)
+  * [Ornithology](/wiki/Ornithology)
+  * [Osteology](/wiki/Osteology)
+  * [Paleontology](/wiki/Paleontology)
+  * [Parasitology](/wiki/Parasitology)
+  * [Pathology](/wiki/Pathology)
+  * [Pharmacology](/wiki/Pharmacology)
+  * [Photobiology](/wiki/Photobiology)
+  * [Phycology](/wiki/Phycology)
+  * [Phylogenetics](/wiki/Phylogenetics)
+  * [Physiology](/wiki/Physiology)
+  * [Pomology](/wiki/Pomology)
+  * [Primatology](/wiki/Primatology)
+  * [Proteomics](/wiki/Proteomics)
+  * [Protistology](/wiki/Protistology)
+  * [Quantum biology](/wiki/Quantum_biology)
+  * [Reproductive biology](/wiki/Reproductive_biology)
+  * [Sociobiology](/wiki/Sociobiology)
+  * [Structural biology](/wiki/Structural_biology)
+  * [Synthetic biology](/wiki/Synthetic_biology)
+  * [Systematics](/wiki/Systematics)
+  * [Systems biology](/wiki/Systems_biology)
+  * [Taxonomy](/wiki/Taxonomy_\(biology\))
+  * [Teratology](/wiki/Teratology)
+  * [Toxicology](/wiki/Toxicology)
+  * [Virology](/wiki/Virology)
+  * [Virophysics](/wiki/Virophysics)
+  * [Xenobiology](/wiki/Xenobiology)
+  * [Zoology](/wiki/Zoology)
+
+See also
+
+  * [History of biology](/wiki/History_of_biology)
+  * [Nobel Prize in Physiology or Medicine](/wiki/Nobel_Prize_in_Physiology_or_Medicine)
+  * [Timeline of biology and organic chemistry](/wiki/Timeline_of_biology_and_organic_chemistry)
+
+  * [v](/wiki/Template:Genealogical_DNA_test)
+  * [t](/wiki/Template_talk:Genealogical_DNA_test)
+  * [e](https://en.wikipedia.org/w/index.php?title=Template:Genealogical_DNA_test&action=edit)
+
+[Genealogical DNA testing](/wiki/Genealogical_DNA_test)
+
+  * [Procedure](/wiki/Genealogical_DNA_test#Procedure)
+  * [Types of tests](/wiki/Genealogical_DNA_test#Types_of_tests)
+  * [Haplogroup](/wiki/Haplogroup) / [Haplotype](/wiki/Haplotype) / [Subclade](/wiki/Subclade)
+  * [Genetic genealogy](/wiki/Genetic_genealogy)
+
+People
+
+  * [Bennett Greenspan](/wiki/Bennett_Greenspan)
+  * [Spencer Wells](/wiki/Spencer_Wells)
+  * [Anne Wojcicki](/wiki/Anne_Wojcicki)
+
+Societies
+
+  * [International Society of Genetic Genealogy](/wiki/International_Society_of_Genetic_Genealogy)
+
+Projects
+
+  * [Genographic Project](/wiki/Genographic_Project)
+  * [Melungeon DNA Project](/wiki/Melungeon_DNA_Project)
+  * [Surname DNA project](/wiki/Surname_DNA_project)
+
+Services
+
+  * [23andMe](/wiki/23andMe)
+  * [Family Tree DNA](/wiki/Family_Tree_DNA)
+  * [Living DNA](/wiki/Living_DNA)
+
+  * ![Category](//upload.wikimedia.org/wikipedia/en/thumb/9/96/Symbol_category_class.svg/16px-Symbol_category_class.svg.png) **[Category](/wiki/Category:Genetic_genealogy)**
+
+[Authority control](/wiki/Help:Authority_control) ![Edit this at
+Wikidata](//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-
+ltr-progressive.svg/10px-OOjs_UI_icon_edit-ltr-progressive.svg.png)
+
+National libraries
+
+  * [France](https://catalogue.bnf.fr/ark:/12148/cb16209728t) [(data)](https://data.bnf.fr/ark:/12148/cb16209728t)
+  * [United States](https://id.loc.gov/authorities/subjects/sh2002000809)
+  * [Latvia](https://kopkatalogs.lv/F?func=direct&local_base=lnc10&doc_number=000184142&P_CON_LNG=ENG)
+
+Other
+
+  * [Microsoft Academic](https://academic.microsoft.com/v2/detail/189206191)
+
+![](//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1)
+
+Retrieved from "[https://en.wikipedia.org/w/index.php?title=Genomics&oldid=104
+1690030](https://en.wikipedia.org/w/index.php?title=Genomics&oldid=1041690030)
+"
+
+[Categories](/wiki/Help:Category):
+
+  * [Genomics](/wiki/Category:Genomics)
+
+Hidden categories:
+
+  * [Pages containing links to subscription-only content](/wiki/Category:Pages_containing_links_to_subscription-only_content)
+  * [Articles with short description](/wiki/Category:Articles_with_short_description)
+  * [Short description matches Wikidata](/wiki/Category:Short_description_matches_Wikidata)
+  * [Articles containing potentially dated statements from October 2011](/wiki/Category:Articles_containing_potentially_dated_statements_from_October_2011)
+  * [All articles containing potentially dated statements](/wiki/Category:All_articles_containing_potentially_dated_statements)
+  * [CS1 maint: DOI inactive as of May 2021](/wiki/Category:CS1_maint:_DOI_inactive_as_of_May_2021)
+  * [Articles with BNF identifiers](/wiki/Category:Articles_with_BNF_identifiers)
+  * [Articles with LCCN identifiers](/wiki/Category:Articles_with_LCCN_identifiers)
+  * [Articles with LNB identifiers](/wiki/Category:Articles_with_LNB_identifiers)
+  * [Articles with MA identifiers](/wiki/Category:Articles_with_MA_identifiers)
+
+## Navigation menu
+
+### Personal tools
+
+  * Not logged in
+  * [Talk](/wiki/Special:MyTalk)
+  * [Contributions](/wiki/Special:MyContributions)
+  * [Create account](/w/index.php?title=Special:CreateAccount&returnto=Genomics)
+  * [Log in](/w/index.php?title=Special:UserLogin&returnto=Genomics)
+
+### Namespaces
+
+  * [Article](/wiki/Genomics)
+  * [Talk](/wiki/Talk:Genomics)
+
+### Variants
+
+### Views
+
+  * [Read](/wiki/Genomics)
+  * [Edit](/w/index.php?title=Genomics&action=edit)
+  * [View history](/w/index.php?title=Genomics&action=history)
+
+### More
+
+###  Search
+
+### Navigation
+
+  * [Main page](/wiki/Main_Page)
+  * [Contents](/wiki/Wikipedia:Contents)
+  * [Current events](/wiki/Portal:Current_events)
+  * [Random article](/wiki/Special:Random)
+  * [About Wikipedia](/wiki/Wikipedia:About)
+  * [Contact us](//en.wikipedia.org/wiki/Wikipedia:Contact_us)
+  * [Donate](https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en)
+
+### Contribute
+
+  * [Help](/wiki/Help:Contents)
+  * [Learn to edit](/wiki/Help:Introduction)
+  * [Community portal](/wiki/Wikipedia:Community_portal)
+  * [Recent changes](/wiki/Special:RecentChanges)
+  * [Upload file](/wiki/Wikipedia:File_Upload_Wizard)
+
+### Tools
+
+  * [What links here](/wiki/Special:WhatLinksHere/Genomics)
+  * [Related changes](/wiki/Special:RecentChangesLinked/Genomics)
+  * [Upload file](/wiki/Wikipedia:File_Upload_Wizard)
+  * [Special pages](/wiki/Special:SpecialPages)
+  * [Permanent link](/w/index.php?title=Genomics&oldid=1041690030)
+  * [Page information](/w/index.php?title=Genomics&action=info)
+  * [Cite this page](/w/index.php?title=Special:CiteThisPage&page=Genomics&id=1041690030&wpFormIdentifier=titleform)
+  * [Wikidata item](https://www.wikidata.org/wiki/Special:EntityPage/Q222046)
+
+### Print/export
+
+  * [Download as PDF](/w/index.php?title=Special:DownloadAsPdf&page=Genomics&action=show-download-screen)
+  * [Printable version](/w/index.php?title=Genomics&printable=yes)
+
+### In other projects
+
+  * [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Genomics)
+  * [Wikiquote](https://en.wikiquote.org/wiki/Genomics)
+
+### Languages
+
+  * [العربية](https://ar.wikipedia.org/wiki/%D8%B9%D9%84%D9%85_%D8%A7%D9%84%D8%AC%D9%8A%D9%86%D9%88%D9%85)
+  * [Azərbaycanca](https://az.wikipedia.org/wiki/Genomika)
+  * [বাংলা](https://bn.wikipedia.org/wiki/%E0%A6%AC%E0%A6%82%E0%A6%B6%E0%A6%BE%E0%A6%A3%E0%A7%81%E0%A6%B8%E0%A6%AE%E0%A6%97%E0%A7%8D%E0%A6%B0_%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%BE%E0%A6%A8)
+  * [Bân-lâm-gú](https://zh-min-nan.wikipedia.org/wiki/%C3%9Bi-tho%C3%A2n-th%C3%A9-ha%CC%8Dk)
+  * [Башҡортса](https://ba.wikipedia.org/wiki/%D0%93%D0%B5%D0%BD%D0%BE%D0%BC%D0%B8%D0%BA%D0%B0)
+  * [Беларуская](https://be.wikipedia.org/wiki/%D0%93%D0%B5%D0%BD%D0%BE%D0%BC%D1%96%D0%BA%D0%B0)
+  * [Bosanski](https://bs.wikipedia.org/wiki/Genomika)
+  * [Català](https://ca.wikipedia.org/wiki/Gen%C3%B2mica)
+  * [Čeština](https://cs.wikipedia.org/wiki/Genomika)
+  * [Eesti](https://et.wikipedia.org/wiki/Genoomika)
+  * [Ελληνικά](https://el.wikipedia.org/wiki/%CE%93%CE%BF%CE%BD%CE%B9%CE%B4%CE%B9%CF%89%CE%BC%CE%B1%CF%84%CE%B9%CE%BA%CE%AE)
+  * [Español](https://es.wikipedia.org/wiki/Gen%C3%B3mica)
+  * [Esperanto](https://eo.wikipedia.org/wiki/Genomiko)
+  * [Euskara](https://eu.wikipedia.org/wiki/Genomika)
+  * [فارسی](https://fa.wikipedia.org/wiki/%DA%98%D9%86%D9%88%D9%85%DB%8C%DA%A9)
+  * [Français](https://fr.wikipedia.org/wiki/G%C3%A9nomique)
+  * [Gaeilge](https://ga.wikipedia.org/wiki/G%C3%A9an%C3%B3ma%C3%ADocht)
+  * [Galego](https://gl.wikipedia.org/wiki/Xen%C3%B3mica)
+  * [한국어](https://ko.wikipedia.org/wiki/%EC%9C%A0%EC%A0%84%EC%B2%B4%ED%95%99)
+  * [Հայերեն](https://hy.wikipedia.org/wiki/%D4%B3%D5%A5%D5%B6%D5%B8%D5%B4%D5%AB%D5%AF%D5%A1)
+  * [हिन्दी](https://hi.wikipedia.org/wiki/%E0%A4%9C%E0%A5%80%E0%A4%A8%E0%A5%8B%E0%A4%AE%E0%A4%BF%E0%A4%95%E0%A5%8D%E0%A4%B8)
+  * [Bahasa Indonesia](https://id.wikipedia.org/wiki/Genomika)
+  * [Íslenska](https://is.wikipedia.org/wiki/Erf%C3%B0amengjafr%C3%A6%C3%B0i)
+  * [Italiano](https://it.wikipedia.org/wiki/Genomica)
+  * [עברית](https://he.wikipedia.org/wiki/%D7%92%D7%A0%D7%95%D7%9E%D7%99%D7%A7%D7%94)
+  * [Lietuvių](https://lt.wikipedia.org/wiki/Genomika)
+  * [Magyar](https://hu.wikipedia.org/wiki/Genomika)
+  * [Bahasa Melayu](https://ms.wikipedia.org/wiki/Genomik)
+  * [Nederlands](https://nl.wikipedia.org/wiki/Genomica)
+  * [日本語](https://ja.wikipedia.org/wiki/%E3%82%B2%E3%83%8E%E3%83%9F%E3%82%AF%E3%82%B9)
+  * [Norsk bokmål](https://no.wikipedia.org/wiki/Genomikk)
+  * [Novial](https://nov.wikipedia.org/wiki/Genomike)
+  * [Oʻzbekcha/ўзбекча](https://uz.wikipedia.org/wiki/Genomika)
+  * [Polski](https://pl.wikipedia.org/wiki/Genomika)
+  * [Português](https://pt.wikipedia.org/wiki/Gen%C3%B3mica)
+  * [Română](https://ro.wikipedia.org/wiki/Genomic%C4%83)
+  * [Русский](https://ru.wikipedia.org/wiki/%D0%93%D0%B5%D0%BD%D0%BE%D0%BC%D0%B8%D0%BA%D0%B0)
+  * [Simple English](https://simple.wikipedia.org/wiki/Genomics)
+  * [Српски / srpski](https://sr.wikipedia.org/wiki/%D0%93%D0%B5%D0%BD%D0%BE%D0%BC%D0%B8%D0%BA%D0%B0)
+  * [Srpskohrvatski / српскохрватски](https://sh.wikipedia.org/wiki/Genomika)
+  * [Suomi](https://fi.wikipedia.org/wiki/Genomiikka)
+  * [Svenska](https://sv.wikipedia.org/wiki/Genomik)
+  * [தமிழ்](https://ta.wikipedia.org/wiki/%E0%AE%AE%E0%AE%B0%E0%AE%AA%E0%AE%A3%E0%AF%81%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AF%8A%E0%AE%95%E0%AF%88%E0%AE%AF%E0%AE%BF%E0%AE%AF%E0%AE%B2%E0%AF%8D)
+  * [ไทย](https://th.wikipedia.org/wiki/%E0%B8%88%E0%B8%B5%E0%B9%82%E0%B8%99%E0%B8%A1%E0%B8%B4%E0%B8%81%E0%B8%AA%E0%B9%8C)
+  * [Türkçe](https://tr.wikipedia.org/wiki/Genomik)
+  * [Українська](https://uk.wikipedia.org/wiki/%D0%93%D0%B5%D0%BD%D0%BE%D0%BC%D1%96%D0%BA%D0%B0)
+  * [Tiếng Việt](https://vi.wikipedia.org/wiki/H%E1%BB%87_gen_h%E1%BB%8Dc)
+  * [中文](https://zh.wikipedia.org/wiki/%E5%9F%BA%E5%9B%A0%E7%B5%84%E5%AD%B8)
+
+[Edit links](https://www.wikidata.org/wiki/Special:EntityPage/Q222046
+#sitelinks-wikipedia)
+
+  * This page was last edited on 31 August 2021, at 22:46 (UTC).
+  * Text is available under the [Creative Commons Attribution-ShareAlike License](//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License); additional terms may apply. By using this site, you agree to the [Terms of Use](//foundation.wikimedia.org/wiki/Terms_of_Use) and [Privacy Policy](//foundation.wikimedia.org/wiki/Privacy_policy). Wikipedia® is a registered trademark of the [Wikimedia Foundation, Inc.](//www.wikimediafoundation.org/), a non-profit organization.
+  * [Privacy policy](https://foundation.wikimedia.org/wiki/Privacy_policy)
+  * [About Wikipedia](/wiki/Wikipedia:About)
+  * [Disclaimers](/wiki/Wikipedia:General_disclaimer)
+  * [Contact Wikipedia](//en.wikipedia.org/wiki/Wikipedia:Contact_us)
+  * [Mobile view](//en.m.wikipedia.org/w/index.php?title=Genomics&mobileaction=toggle_view_mobile)
+  * [Developers](https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute)
+  * [Statistics](https://stats.wikimedia.org/#/en.wikipedia.org)
+  * [Cookie statement](https://foundation.wikimedia.org/wiki/Cookie_statement)
+  * ![Wikimedia Foundation](/static/images/footer/wikimedia-button.png)
+  * ![Powered by MediaWiki](/static/images/footer/poweredby_mediawiki_88x31.png)
+  *[[v]: View this template
+  *[[e]: Edit this template
+  *[[t]: Discuss this template
+
